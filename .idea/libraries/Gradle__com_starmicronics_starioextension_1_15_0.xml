@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.starmicronics:starioextension:1.15.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.starmicronics/starioextension/1.15.0/b2ae93941fcafa8b2325b7442d50f90c1e4be373/starioextension-1.15.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.starmicronics/starioextension/1.15.0/e0c4715b98da99dfa46746319e27140bda99c48f/starioextension-1.15.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.starmicronics/starioextension/1.15.0/e0c4715b98da99dfa46746319e27140bda99c48f/starioextension-1.15.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

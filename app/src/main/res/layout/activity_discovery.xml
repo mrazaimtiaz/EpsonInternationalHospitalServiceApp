@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/mAppBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/mToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/bgmain"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            app:contentInsetStart="0dp"
+            app:navigationIcon="@drawable/ic_close"
+            app:title="@string/setting_activity"
+            app:titleTextColor="?attr/colorOnPrimary" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Re Scan"
+        android:id="@+id/btnRestart"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Manual"
+        android:id="@+id/btnManual"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Scanner"
+        android:id="@+id/btnMyScan"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_printerlist"
+        android:id="@+id/txtList"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000" />
+
+    <ListView
+        android:id="@+id/lstReceiveData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#ffffff">
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.epson.epos2_printer.ui.MobileEntryActivity"
+    android:layoutDirection="ltr"
+    android:fitsSystemWindows="true"
+    android:keepScreenOn="true"
+    android:background="@drawable/bgmain">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mDontHaveNumber"
+            android:layout_marginTop="@dimen/_12sdp"
+            style="@style/TextAppearance.MyApp.Subtitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:text="@string/i_dont_have_a_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/mDontBtnRadio"
+            app:layout_constraintTop_toBottomOf="@id/mEnterNumberTextAr" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:padding="@dimen/_12sdp"
+            android:textAlignment="center"
+            android:id="@+id/mDontBtnRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/check_box_selector"
+            android:button="@null"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/mDontHaveNumber"
+            app:layout_constraintEnd_toStartOf="@+id/mDontHaveNumber"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/mDontHaveNumber" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/mZainLogo"
+            android:layout_width="@dimen/_155sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/zainlogo" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mEnterNumberTextEn"
+            style="@style/TextAppearance.MyApp.Subtitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:text="@string/please_enter_your_mobile_number_en"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/guideline1"
+            app:layout_constraintTop_toBottomOf="@id/mZainLogo" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp"
+            app:layout_constraintGuide_percent="0.525"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mEnterNumberTextAr"
+            style="@style/TextAppearance.MyApp.Subtitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/please_enter_your_mobile_number_ar"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/_8sdp"
+            app:layout_constraintStart_toEndOf="@id/guideline1"
+            app:layout_constraintTop_toBottomOf="@id/mZainLogo" />
+
+        <com.davidmiguel.numberkeyboard.NumberKeyboard
+            android:id="@+id/mNumberKeyboard"
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mInputNumber"
+            app:numberkeyboard_keyHeight="@dimen/_30sdp"
+            app:numberkeyboard_keyPadding="@dimen/_6sdp"
+            app:numberkeyboard_keyWidth="@dimen/_30sdp"
+            app:numberkeyboard_keyboardType="custom"
+            app:numberkeyboard_leftAuxBtnBackground="@drawable/keyboard_backspace"
+            app:numberkeyboard_numberKeyBackground="@drawable/btn_green"
+            app:numberkeyboard_numberKeyTextColor="@color/white"
+            app:numberkeyboard_rightAuxBtnBackground="@drawable/keyboard_del" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/mProceedEn"
+            android:layout_width="@dimen/_85sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:text="@string/proceed_en"
+            android:textSize="@dimen/_10ssp"
+            android:layout_marginTop="@dimen/_8sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/mNumberKeyboard"
+            app:layout_constraintEnd_toStartOf="@+id/mNumberKeyboard"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/mProceedAr"
+            android:layout_width="@dimen/_85sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:text="@string/proceed_ar"
+            android:textSize="@dimen/_10ssp"
+            android:layout_marginTop="@dimen/_8sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/mNumberKeyboard"
+            app:layout_constraintStart_toEndOf="@+id/mNumberKeyboard"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+<!--
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/mInputNumberField"
+            style="@style/Widget.Shrine.TextInputLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4sdp"
+            app:errorTextAppearance="@style/CustomTextInputLayoutStyle.ErrorTextStyle"
+            app:hintTextAppearance="@style/CustomTextInputLayoutStyle.HintTextStyle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mDontHaveNumber">
+-->
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mInputNumber"
+                android:layout_width="@dimen/_160sdp"
+                app:layout_constraintTop_toBottomOf="@id/mDontHaveNumber"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@color/white"
+                android:clickable="false"
+                android:hint="XXXXXXXX"
+                android:focusable="false"
+                android:gravity="center"
+                android:longClickable="false"
+                android:maxLines="1"
+                android:textSize="@dimen/_13ssp" />
+  <!--      </com.google.android.material.textfield.TextInputLayout>-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

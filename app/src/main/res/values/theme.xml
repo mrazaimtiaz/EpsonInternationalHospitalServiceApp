@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="colorPrimary">@color/reply_pink_400</item>
+        <item name="colorPrimaryVariant">@color/reply_blue_800</item>
+        <item name="colorSecondary">@color/reply_pink_400</item>
+        <item name="colorSecondaryVariant">@color/reply_pink_400</item>
+
+        <item name="android:colorBackground">@color/reply_blue_50</item>
+        <item name="colorSurface">@color/reply_white_50</item>
+
+        <item name="colorPrimarySurfaceVariant">?attr/colorPrimaryVariant</item>
+        <item name="colorError">@color/reply_red_400</item>
+
+        <item name="colorPrimaryDark">@color/reply_pink_400</item>
+
+        <item name="colorOnPrimary">@color/reply_white_50</item>
+        <item name="colorOnSecondary">@color/reply_black_900</item>
+        <item name="colorOnBackground">@color/reply_black_900</item>
+        <item name="colorOnSurface">@color/reply_black_900</item>
+        <item name="colorOnError">@color/reply_black_900</item>
+        <item name="colorControlNormal">@color/white</item>
+
+        <item name="scrimBackground">@color/reply_white_50_alpha_060</item>
+
+        <!-- Customize your theme here. --><!--
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>-->
+
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MyApp.LargeComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MyApp.MediumComponent</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MyApp.SmallComponent</item>
+    </style>
+
+</resources>

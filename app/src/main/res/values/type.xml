@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--SHAPE-->
+    <style name="ShapeAppearance.MyApp.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">25%</item>
+    </style>
+
+    <style name="ShapeAppearance.MyApp.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+        <item name="cardBackgroundColor">#BFFFFFFF</item>
+    </style>
+
+    <style name="ShapeAppearance.MyApp.TextInputLayout" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+    </style>
+
+
+    <style name="ShapeAppearance.MyApp.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="Widget.Shrine.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:paddingBottom">8dp</item>
+        <item name="boxStrokeColor">#B4AFAC</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+    </style>
+
+    <style name="CustomTextInputLayoutStyle.HintTextStyle" parent="TextAppearance.Design.Hint">
+        <item name="android:textColor">@color/reply_pink_400</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="CustomTextInputLayoutStyle.ErrorTextStyle" parent="TextAppearance.Design.Error">
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+    <style name="TextAppearance.Shrine.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Widget.Shrine.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="backgroundTint">?attr/colorPrimaryDark</item>
+        <item name="android:stateListAnimator" tools:ignore="NewApi">
+            @animator/shr_next_button_state_list_anim
+        </item>
+    </style>
+
+    <style name="Widget.Shrine.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+
+    <style name="TextAppearance.MyApp.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">@dimen/_19ssp</item>
+        <item name="android:textColor">@color/greenblue</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textSize">@dimen/_26ssp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textSize">@dimen/_37ssp</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textSize">@dimen/_47ssp</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">@dimen/_74ssp</item>
+    </style>
+
+
+    <style name="TextAppearance.MyApp.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">@dimen/_9ssp</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="android:textSize">@dimen/_7ssp</item>
+    </style>
+
+
+</resources>

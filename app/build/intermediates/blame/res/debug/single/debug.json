@@ -1,0 +1,722 @@
+[
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_keyboard_del_normal.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xxhdpi/keyboard_del_normal.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_launch_image.jpg.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/launch_image.jpg"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_setting.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_setting.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_vd_vector_del_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xhdpi/vd_vector_del_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_coupon_image_japanese.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/coupon_image_japanese.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_segmented_ctrl_radio_button_left_selected.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/segmented_ctrl_radio_button_left_selected.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_setting_new.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_setting_new.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout-land_activity_mobile_entry.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout-land/activity_mobile_entry.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_zain_launcher_round.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-mdpi/ic_zain_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_zain_launcher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-hdpi/ic_zain_launcher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/animator_shr_next_button_state_list_anim.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/animator/shr_next_button_state_list_anim.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_zain_launcher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xhdpi/ic_zain_launcher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_zain_gic_launcher_foreground.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xhdpi/ic_zain_gic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_zain_gic_launcher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-mdpi/ic_zain_gic_launcher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_zain_lblack_auncher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxhdpi/ic_zain_lblack_auncher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_zain_lblack_auncher_foreground.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-mdpi/ic_zain_lblack_auncher_foreground.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_coupon_image.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/coupon_image.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_zain_gic_launcher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xhdpi/ic_zain_gic_launcher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_zain_gic_launcher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxhdpi/ic_zain_gic_launcher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_zain_gic_launcher_round.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxhdpi/ic_zain_gic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_zain_gic_launcher_round.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxxhdpi/ic_zain_gic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_vd_vector_del.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/vd_vector_del.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-nodpi_coffee.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable-nodpi/coffee.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_zain_launcher_foreground.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-hdpi/ic_zain_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout-sw600dp_activity_service.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout-sw600dp/activity_service.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/xml_device_filter.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/xml/device_filter.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-mdpi_keyboard_backspace_normal.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-mdpi/keyboard_backspace_normal.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_discovery.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_discovery.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_vd_vector_del_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/vd_vector_del_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_coupon_image_french.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/coupon_image_french.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-hdpi_vd_vector_del_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-hdpi/vd_vector_del_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_keyboard_del_normal.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xhdpi/keyboard_del_normal.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_printable_area_image.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/printable_area_image.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_checked_icon.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/checked_icon.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_btn_green.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/btn_green.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_ic_info_outline_white_24px.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/ic_info_outline_white_24px.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_checked.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/checked.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_zain_launcher.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-anydpi-v26/ic_zain_launcher.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_zain_launcher_round.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxxhdpi/ic_zain_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-ldpi_vd_vector_del.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-ldpi/vd_vector_del.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_un_checked.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/un_checked.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_zain_launcher_foreground.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxxhdpi/ic_zain_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_zain_launcher_round.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-anydpi-v26/ic_zain_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_coupon_image_german.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/coupon_image_german.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_error.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_error.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_display_image_2.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/display_image_2.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_launch_icon_jpeg.jpg.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/launch_icon_jpeg.jpg"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-nodpi_store.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable-nodpi/store.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_zain_lblack_auncher_round.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-hdpi/ic_zain_lblack_auncher_round.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-ldpi_keyboard_del_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-ldpi/keyboard_del_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_keyboard_backspace_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xhdpi/keyboard_backspace_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-hdpi_keyboard_backspace_normal.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-hdpi/keyboard_backspace_normal.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-hdpi_keyboard_backspace_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-hdpi/keyboard_backspace_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_zain_launcher_foreground.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxhdpi/ic_zain_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_zain_launcher_foreground.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xhdpi/ic_zain_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-ldpi_keyboard_backspace_normal.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-ldpi/keyboard_backspace_normal.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_keyboard_backspace_normal.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xxhdpi/keyboard_backspace_normal.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_zain_launcher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxhdpi/ic_zain_launcher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_coupon_image_spanish.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/coupon_image_spanish.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_zain_lblack_auncher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxxhdpi/ic_zain_lblack_auncher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_vd_vector_del_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xxhdpi/vd_vector_del_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_zain_lblack_auncher_round.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xhdpi/ic_zain_lblack_auncher_round.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_mobile_entry.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_mobile_entry.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_zain_launcher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-mdpi/ic_zain_launcher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_check_box_selector.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/check_box_selector.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_zain_launcher_round.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xhdpi/ic_zain_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_keyboard_del_pressed.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/keyboard_del_pressed.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_ic_close.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/ic_close.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_segmented_ctrl_radio_button_left_unselected.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/segmented_ctrl_radio_button_left_unselected.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/anim_blink.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/anim/blink.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-ldpi_vd_vector_del_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-ldpi/vd_vector_del_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_zain_lblack_auncher_round.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-anydpi-v26/ic_zain_lblack_auncher_round.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_item_services.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/item_services.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_printersetting.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_printersetting.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-nodpi_wmark.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable-nodpi/wmark.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_monitor.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_monitor.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_segmented_ctrl_radio_button_right_selected.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/segmented_ctrl_radio_button_right_selected.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_coupon_image_portuguese.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/coupon_image_portuguese.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_manual.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_manual.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_coupon_image_simplified_chinese.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/coupon_image_simplified_chinese.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_segmented_ctrl_radio_right.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/segmented_ctrl_radio_right.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-hdpi_keyboard_del_normal.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-hdpi/keyboard_del_normal.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_zain_lblack_auncher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-hdpi/ic_zain_lblack_auncher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout-land_activity_setting.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout-land/activity_setting.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_ad2.jpg.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/ad2.jpg"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_vd_vector_del.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/vd_vector_del.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_screensaver1.jpg.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/screensaver1.jpg"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_service.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_service.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_btn_pink.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/btn_pink.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_sphere_image.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/sphere_image.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-ldpi_keyboard_del_normal.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-ldpi/keyboard_del_normal.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_segmented_ctrl_radio_text_color.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/segmented_ctrl_radio_text_color.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_zain_gic_launcher_foreground.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxxhdpi/ic_zain_gic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_screen_saver.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_screen_saver.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_zain_lblack_auncher.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-anydpi-v26/ic_zain_lblack_auncher.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_locked.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_locked.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-mdpi_vd_vector_del_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-mdpi/vd_vector_del_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-mdpi_vd_vector_del.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-mdpi/vd_vector_del.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_zain_lblack_auncher_foreground.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxhdpi/ic_zain_lblack_auncher_foreground.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_zain_gic_launcher_round.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-hdpi/ic_zain_gic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_bgmain.jpg.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/bgmain.jpg"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_my_scanner.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_my_scanner.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_zain_gic_launcher.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-anydpi-v26/ic_zain_gic_launcher.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_zain_lblack_auncher_foreground.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-hdpi/ic_zain_lblack_auncher_foreground.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_vd_vector_del_pressed.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/vd_vector_del_pressed.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_list_at.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/list_at.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_zain_gic_launcher_foreground.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-mdpi/ic_zain_gic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_zain_gic_launcher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-hdpi/ic_zain_gic_launcher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_singlemonitor.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_singlemonitor.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_nothing_selected.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/nothing_selected.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/menu_menu_info.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/menu/menu_info.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_firmwareupdate.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_firmwareupdate.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_keyboard_del.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/keyboard_del.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_keyboard_del_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/keyboard_del_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_coupon_image_traditional_chinese.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/coupon_image_traditional_chinese.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_spinner_item_allign.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/spinner_item_allign.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/xml_device_admin_reciever.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/xml/device_admin_reciever.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_zain_lblack_auncher_foreground.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xhdpi/ic_zain_lblack_auncher_foreground.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-mdpi_keyboard_backspace_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-mdpi/keyboard_backspace_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_segmented_ctrl_radio_left.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/segmented_ctrl_radio_left.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_keyboard_backspace_pressed.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/keyboard_backspace_pressed.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_star_logo_image.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/star_logo_image.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_keyboard_del_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xxhdpi/keyboard_del_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_zain_launcher_foreground.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-mdpi/ic_zain_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_zain_gic_launcher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxxhdpi/ic_zain_gic_launcher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_launch_icon.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/launch_icon.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_multiplemonitor.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_multiplemonitor.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_zain_lblack_auncher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-mdpi/ic_zain_lblack_auncher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_keyboard_backspace_normal.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xhdpi/keyboard_backspace_normal.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_zain_lblack_auncher_round.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-mdpi/ic_zain_lblack_auncher_round.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_keyboard_backspace_normal.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/keyboard_backspace_normal.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-mdpi_keyboard_del_normal.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-mdpi/keyboard_del_normal.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_spinner_drop_down.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/spinner_drop_down.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_keyboard_backspace_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xxhdpi/keyboard_backspace_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_vd_vector_del.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xxhdpi/vd_vector_del.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-ldpi_keyboard_backspace_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-ldpi/keyboard_backspace_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_zain_launcher_round.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-hdpi/ic_zain_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_zain_gic_launcher_round.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xhdpi/ic_zain_gic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/xml_accessory_filter.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/xml/accessory_filter.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/menu_menu_main.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_vd_vector_del.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xhdpi/vd_vector_del.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_zain_gic_launcher_foreground.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxhdpi/ic_zain_gic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-hdpi_vd_vector_del.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-hdpi/vd_vector_del.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_zainlogo.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/zainlogo.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_keyboard_del_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xhdpi/keyboard_del_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_screensaver2.jpg.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/screensaver2.jpg"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_keyboard_del_normal.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/keyboard_del_normal.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_zain_lblack_auncher_foreground.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxxhdpi/ic_zain_lblack_auncher_foreground.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_ad1.jpg.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/ad1.jpg"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_unchecked_icon.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/unchecked_icon.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_activity_intialize_setting.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/activity_intialize_setting.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_zain_gic_launcher_round.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-anydpi-v26/ic_zain_gic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_zain_gic_launcher_foreground.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-hdpi/ic_zain_gic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-mdpi_keyboard_del_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-mdpi/keyboard_del_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_display_image_1.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/display_image_1.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_coupon_image_russian.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/coupon_image_russian.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_zain_lblack_auncher_round.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxhdpi/ic_zain_lblack_auncher_round.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_ic_refresh_white_24px.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/ic_refresh_white_24px.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_keyboard_backspace_normal.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/keyboard_backspace_normal.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_zain_lblack_auncher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xhdpi/ic_zain_lblack_auncher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_keyboard_del_normal.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/keyboard_del_normal.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-hdpi_keyboard_del_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-hdpi/keyboard_del_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_check_box_selector_land.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/check_box_selector_land.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_zain_launcher_round.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxhdpi/ic_zain_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_keyboard_backspace.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/keyboard_backspace.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_keyboard_backspace_pressed.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/keyboard_backspace_pressed.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_segmented_ctrl_radio_button_right_unselected.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/segmented_ctrl_radio_button_right_unselected.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_ic_keyboard_arrow_down_green_24dp.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/ic_keyboard_arrow_down_green_24dp.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/drawable_ic_go_back.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/drawable/ic_go_back.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_zain_launcher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxxhdpi/ic_zain_launcher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/layout_spinner_item_text.xml.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/layout/spinner_item_text.xml"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_zain_lblack_auncher_round.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-xxxhdpi/ic_zain_lblack_auncher_round.png"
+    },
+    {
+        "merged": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_zain_gic_launcher_round.png.flat",
+        "source": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/src/main/res/mipmap-mdpi/ic_zain_gic_launcher_round.png"
+    }
+]

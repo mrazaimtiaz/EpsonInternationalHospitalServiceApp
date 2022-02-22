@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\277f3e346d8e5b4d9181b883bdc5c1d5f1bad756\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="705378853cb9f264315d7a0a8edb6743d72efe9b">
+        <dex dex="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\classes_02293c5091f5d68ca2be7dd194c9f950dab4397d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProject\GICProject\ePOS2_Printer\app\libs\ePOS2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dafaa8a91deb1ae807a4d70411b6ab42885a9ac2">
+        <dex dex="D:\AndroidProject\GICProject\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\ePOS2_8457d5a88fa5b48da96607dbe30ec224d9ecb24e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\2611b52e53fda5bfbf02efa74fe0d87224da8cbb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\classes_beee09097dc0d87e8eb7b1260cf4c495f926be86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\e28b6fcebbb84eb87222319ba02c6ef4217eaf30\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\classes_6382e304b0c64195f70c0871f06360604a5a67a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\f3b702fc8ac92fa04c6e882cb7a138ab5c6283c1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="5c66801c7ac6def4ffef7859925b12ce7940438e">
+        <dex dex="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\classes_005d7c41dbfca625f7965370b84d78217719aca4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\bcee1c994a3fe06c67241a743eac370462507bc4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\classes_01e0344359f008cb43dea2f95019ec49d574a6bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\000ac23bd7a573b02f22b2c6743688fa85542df6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9a2ea9818b2f556b6663c0e7376bd664ee6c7550">
+        <dex dex="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\classes_2520ad308fa76be096791c6b3bab9ef5fe26f1ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\39800dad1b57057a36f4b4322a37e71964ccd649\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\classes_f5f73acfa7b74d7e5927db764fc04b878d31f1fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\511b1ca4e087d7dc0e1c5fe08b4f5845c42eebf4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="6f209b73a488f358673f39317df394bd7a99c05e">
+        <dex dex="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\classes_ffb0f6daed3357ca7190d5ebf84fe89aace93a45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\common-1.1.0_c08c7745dc8200bbb80bd6a844e81c8796e03a8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\78f20a92e05993756535c7860b24360d239618ca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fe6c8fbfeeb1454c3eb605c9b66662991681fd55">
+        <dex dex="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\classes_fdfead7eec4038d92c4ed3e519c55c3c4b94ca64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\63f66b55a1801c1ff2f92b3d94e03aa456c0a839\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3d46095629eedbd5b79b4d129428fc499473a73b">
+        <dex dex="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\classes_23254d4643d4d0bcba0c92751ec9f9e530587ead.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\libs\ePOS2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dafaa8a91deb1ae807a4d70411b6ab42885a9ac2">
+        <dex dex="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\ePOS2_4460e5bac992c29bb430ae59b664d00a447c0f64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\common-1.1.0_b9a705f61b8e7a045c1f41ce3d9c11f90c7987c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.0\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\support-annotations-27.1.0_9f22d520205e0e0aeb7bd338bb029b8eeba3ae00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\47dbd8c8c0c3d339f994b47800ceb792876b0d4d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="755c70a5a4e439030f67311dbafaa67b111377a6">
+        <dex dex="C:\Users\DELL\Downloads\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Android_v2.14.0\ePOS_SDK_Sample_Android\ePOS_SDK_Sample_Android\ePOS2_Printer\app\build\intermediates\pre-dexed\debug\classes_44a900e13722623a69fdd46679acfe4b4e925a2b.jar" />
+    </item>
+
+</items>

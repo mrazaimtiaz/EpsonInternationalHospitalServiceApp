@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:layoutDirection="ltr"
+    tools:context="com.starmicronics.starprntsdk.ui.SettingActivity">
+
+    <EditText
+        android:id="@+id/mPort"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_13sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:maxLines="1"
+        app:layout_constraintTop_toBottomOf="@+id/mTextLocal" />
+
+    <Switch
+        android:id="@+id/mSwitchLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/mTextLocal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/mTextLocal"
+        app:layout_constraintTop_toTopOf="@+id/mTextLocal" />
+
+
+    <TextView
+        android:id="@+id/mSelectedBranch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:text="Selected Branch"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mAppBarLayout" />
+
+
+    <TextView
+        android:id="@+id/mTextLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_13sdp"
+        android:text="Enable Local Server"
+        android:textSize="@dimen/_13sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/line1" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_18sdp"
+        android:background="?attr/colorSecondary"
+        app:layout_constraintTop_toBottomOf="@id/mSpBranches" />
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/mAppBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/mToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/bgmain"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            app:contentInsetStart="0dp"
+            app:navigationIcon="@drawable/ic_close"
+            app:title="@string/setting_activity"
+            app:titleTextColor="?attr/colorOnPrimary" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mConfigurePrinter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_18sdp"
+        android:text="@string/configure_printer"
+        android:textSize="@dimen/_10sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mPort" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mDefault"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_18sdp"
+        android:text="Restart Application"
+        android:textSize="@dimen/_10sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mConfigurePrinter" />
+
+    <com.starmicronics.starprntsdk.utils.OwnSpinner
+        android:id="@+id/mSpBranches"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_18sdp"
+        android:background="@drawable/spinner_drop_down"
+        android:enabled="false"
+        android:gravity="center"
+        android:layoutDirection="locale"
+        android:paddingEnd="@dimen/_10sdp"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="bold"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mSelectedBranch" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
