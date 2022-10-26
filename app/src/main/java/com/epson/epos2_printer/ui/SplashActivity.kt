@@ -61,7 +61,7 @@ class SplashActivity : AppCompatActivity() {
                 qRepository
             )
 
-        backEndViewModel = ViewModelProvider(this, backEndViewModelProviderFactory).get(BackEndViewModel::class.java)
+   /*     backEndViewModel = ViewModelProvider(this, backEndViewModelProviderFactory).get(BackEndViewModel::class.java)
 
         backEndViewModel.saveISCallSendDisplayMessage(true)
         backEndViewModel.savePreferenceDisplayMessage(null)
@@ -74,15 +74,16 @@ class SplashActivity : AppCompatActivity() {
             backEndViewModel.getCounter()
             backEndViewModel.sendDisplayMessage()
             backEndViewModel.timerDisplay()
-        }
+        }*/
         viewModel = ViewModelProvider(this, viewModelProviderFactory).get(QViewModel::class.java)
         setObserver()
-        val branchId = getPreference()
+      //  val branchId = getPreference()
+        val branchId = 1
 
         if (branchId != Constants.BRANCH_DEFAULT_VALUE)
             viewModel.isBranchOpen(branchID = branchId)
         else {
-            showToastInfo(getString(R.string.choose_a_branch_admin))
+         //   showToastInfo(getString(R.string.choose_a_branch_admin))
             intentMain()
         }
 
@@ -103,7 +104,7 @@ class SplashActivity : AppCompatActivity() {
                 viewModel.isBranchOpen(branchID = branchId)
             }
             else {
-                showToastInfo(getString(R.string.choose_a_branch_admin))
+              //  showToastInfo(getString(R.string.choose_a_branch_admin))
                 intentMain()
             }
         } catch (e: Exception) {
@@ -232,7 +233,7 @@ class SplashActivity : AppCompatActivity() {
     //******************************************* intent main **********************************************
     private fun intentMain() {
         val intent = Intent(
-                this, MobileEntryActivity::class.java
+                this, ServiceActivity::class.java
         )
         startActivityForResult(intent,900)
        // startActivity(intent)

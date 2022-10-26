@@ -1,6 +1,7 @@
 package com.epson.epos2_printer.ui
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
 import android.content.IntentFilter
@@ -80,7 +81,8 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
 
 
-    private var branchId = BRANCH_DEFAULT_VALUE
+   // private var branchId = BRANCH_DEFAULT_VALUE
+    private var branchId = 1
     private var checkedNumber = false
     private var mobileNumber: String? = ""
 
@@ -145,7 +147,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
         setContentView(R.layout.activity_service)
 
         //screensavercode
-      //  timer.start()
+        startTimer()
 
 
         val qRepository = QRepository()
@@ -158,7 +160,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
         lateinit var backEndViewModel: BackEndViewModel
 
-        val backEndViewModelProviderFactory =
+       /* val backEndViewModelProviderFactory =
             BackEndViewModelProviderFactory(
                 application,
                 qRepository
@@ -175,11 +177,11 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
             backEndViewModel.getCounter()
             backEndViewModel.sendDisplayMessage()
             backEndViewModel.timerDisplay()
-        }
+        }*/
 
         mobileNumber = intent.getStringExtra(EXTRA_MOBILE_NUMBER)
         checkedNumber = intent.getBooleanExtra(EXTRA_CHECKED_NUMBER, false)
-        branchId = intent.getIntExtra(EXTRA_BRANCH_ID, BRANCH_DEFAULT_VALUE)
+       // branchId = intent.getIntExtra(EXTRA_BRANCH_ID, BRANCH_DEFAULT_VALUE)
 
         setupRecyclerView()
       //  Log.d("TAG", "onCreate: printer status ${mPrinter?.status?.let { makeErrorMessage(it) }}")
@@ -188,7 +190,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
         if (branchId != BRANCH_DEFAULT_VALUE) {
             viewModel.getServices(branchId)
         } else {
-            setIntentError(getString(R.string.choose_a_branch_admin))
+        //   setIntentError(getString(R.string.choose_a_branch_admin))
         }
 
 
@@ -281,7 +283,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
 
 //screensavercode
-   /* val timer = object: CountDownTimer(Constants.DELAY_SCREENSAVER, 1000) {
+    val timer = object: CountDownTimer(Constants.DELAY_SCREENSAVER, 1000) {
         override fun onTick(millisUntilFinished: Long) {}
 
         override fun onFinish() {
@@ -294,14 +296,36 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
             // startActivity(intent)
 
         }
-    }*/
+    }
 
-    override fun dispatchTouchEvent(ev: MotionEvent): Boolean {
+
+    private fun cancelTimer() {
+        try {
+            CoroutineScope(Dispatchers.IO).launch {
+                timer.cancel()
+            }
+        } catch (E: java.lang.Exception) {
+
+        }
+
+    }
+
+    private fun startTimer() {
+        try {
+            CoroutineScope(Dispatchers.IO).launch {
+                timer.start()
+            }
+        } catch (E: java.lang.Exception) {
+
+        }
+    }
+
+        override fun dispatchTouchEvent(ev: MotionEvent): Boolean {
         // dismiss shown snackbar if user tapped anywhere outside snackbar
-        //screensavercode
-    //    timer.cancel()
-        //screensavercode
-    //    timer.start()
+            //screensavercode
+            cancelTimer()
+            //screensavercode
+            startTimer()
 
         // call super
         return super.dispatchTouchEvent(ev)
@@ -364,7 +388,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
     override fun onDestroy() {
       //  finalizeObject()
-
+        cancelTimer()
         super.onDestroy()
         while (true) {
             try {
@@ -411,7 +435,8 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         //screensavercode
-    //    timer.start()
+        cancelTimer()
+        startTimer()
         try {
             if (branchId != BRANCH_DEFAULT_VALUE) {
                 viewModel.getServices(branchId)
@@ -495,17 +520,43 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
     }
 
     //********************************************** click listener **********************************************
+    @SuppressLint("ClickableViewAccessibility")
     private fun clickListener() {
-        mBack.setOnClickListener {
-            try {
-                //screensavercode
-             //       timer.cancel()
-                setResult(Activity.RESULT_OK)
-                finish()
-            } catch (e: Exception) {
-                Log.d("TAG", "onResume: Exception 114 ")
-                e.printStackTrace()
+        var then: Long = 0
+        mTextQuestion.setOnTouchListener { _, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    then = System.currentTimeMillis()
+                }
+                MotionEvent.ACTION_UP -> {
+                    if ((System.currentTimeMillis() - then) > 4000) {
+                        FancyToast.makeText(
+                            this,
+                            getString(R.string.setting_activity),
+                            FancyToast.LENGTH_SHORT,
+                            FancyToast.INFO,
+                            false
+                        ).show()
+                        /* val intent = Intent(
+                                 this, SettingActivity::class.java
+                         )*/
+                        ////screensavercode
+                        cancelTimer()
+
+                        val intent = Intent(
+                            this, ServiceActivity::class.java
+                        )
+                        startActivityForResult(intent,900)
+
+                        /*         val intent = Intent(
+                                     this, IntializeSettingActivity::class.java
+                                 )
+                                 startActivityForResult(intent, 900)*/
+
+                    }
+                }
             }
+            true
         }
 
         mWithSpecialNeed.setOnClickListener {
@@ -519,7 +570,6 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
         serviceAdapter.setOnItemClickListener { services, view ->
             showProgress()
-            view.mServiceBtn.isEnabled = false
             if (checkedNumber) {
                 if (Locale.getDefault().displayLanguage != DISPLAY_LNG_ARABIC)
                     services.Services_PK_ID?.let {
@@ -535,16 +585,14 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
                 else
                     services.Services_PK_ID?.let { viewModel.getBookTicket(mobileNumber.toString(), it, mSpecialNeedRadio.isChecked, false, INT_ARABIC, -1, branchId, branchId) }
             }
-            CoroutineScope(Dispatchers.Main).launch {
+           /* CoroutineScope(Dispatchers.Main).launch {
                 delay(9000)
                 view.mServiceBtn.isEnabled = true
                 hideProgress()
-            }
+            }*/
         }
 
-        mTextBack.setOnClickListener {
-            mBack.performClick()
-        }
+
     }
 
 
@@ -698,12 +746,18 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
                                     } else {
                                         try {
                                             //screensavercode
-                                          //      timer.cancel()
+                                            cancelTimer()
                                             val intent = Intent(
                                                     this, ErrorActivity::class.java
                                             )
-                                            intent.putExtra(EXTRA_ERROR,list.msgAr)
-                                            intent.putExtra(EXTRA_ERROR_EN,list.msgEn)
+                                            if(list.msgAr.toString() == "null"){
+                                                list.msgAr = "الفرع مغلق"
+                                            }
+                                            if(list.msgEn.toString() == "null"){
+                                                list.msgEn = "The branch is closed"
+                                            }
+                                            intent.putExtra(EXTRA_ERROR, list.msgAr ?: "الفرع مغلق")
+                                            intent.putExtra(EXTRA_ERROR_EN, list.msgEn ?: "The branch is closed")
                                             intent.putExtra(EXTRA_BRANCH_ID, branchId)
                                             startActivityForResult(intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP), 900)
                                             //  startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP))
@@ -760,7 +814,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
         viewModel.getBookTicket.observe(this, Observer { response ->
             when (response) {
                 is Resource.Loading -> {
-                    mRecyclerView.isEnabled = false
+
                 }
                 is Resource.Success -> {
 
@@ -770,9 +824,9 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
                             address = value
 
                             if (address == BRANCH_DEFAULT_VALUE.toString()) {
+                                hideProgress()
                                 throw java.lang.Exception()
                             } else {
-                                mRecyclerView.isEnabled = true
 
                                 if (response.data != null) {
                                     for (list in response.data) {
@@ -787,13 +841,17 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
                                             list.NewPKID?.let { viewModel.getTicket(it, INT_ARABIC) }
 
                                     }
+                                }else{
+                                    hideProgress()
                                 }
                             }
                         } else {
+                            hideProgress()
                             throw java.lang.Exception()
                         }
 
                     } catch (e: java.lang.Exception) {
+                        hideProgress()
                         mPrinter?.status?.let { makeErrorMessage(it)?.let { it1 ->
                             viewModel.sendLog(branchId,it1)
                             setIntentError(it1) } }
@@ -839,7 +897,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
                 }
 
                 is Resource.Error -> {
-                    mRecyclerView.isEnabled = true
+                    hideProgress()
                     viewModel.sendLog(branchId,response.message.toString() + "(Getting Ticket)")
                     setIntentError(response.message.toString())
                 }
@@ -849,26 +907,26 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
         viewModel.getTicket.observe(this, Observer { response ->
             when (response) {
                 is Resource.Loading -> {
-                    mRecyclerView.isEnabled = false
 
 
                 }
                 is Resource.Success -> {
 
-                    mRecyclerView.isEnabled = true
                     if (response.data != null) {
                         for (list in response.data) {
                             list.Ticket?.let { this.print(it) }
                         }
+                    }else{
+                        hideProgress()
                     }
 
 
                 }
 
                 is Resource.Error -> {
-
+                    hideProgress()
                     viewModel.sendLog(branchId,response.message.toString() + "(getTicket)")
-                    mRecyclerView.isEnabled = true
+
                     showToastInfo(response.message.toString())
                     //   setIntentError(response.message.toString())
                 }
@@ -922,7 +980,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
     private fun setIntentError(message: String) {
         try {
             //screensavercode
-         //       timer.cancel()
+            cancelTimer()
             val intent = Intent(
                     this, ErrorActivity::class.java
             )
@@ -1059,6 +1117,9 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
                 }
 
             } catch (e: java.lang.Exception) {
+                withContext(Dispatchers.Main){
+                    hideProgress()
+                }
                 mPrinter?.clearCommandBuffer()
                 mPrinter?.status?.let { makeErrorMessage(it)?.let { it1 ->
 
@@ -1173,16 +1234,23 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 */
 
     private suspend fun printData(): Boolean {
+        val mContext = this
         if (mPrinter == null) {
+            withContext(Dispatchers.Main){
+                hideProgress()
+            }
             return false
         }
+
 
         withContext(Dispatchers.Main) {
             Log.d("TAG", "printData: called 1 finish")
             //screensavercode
-           // timer.cancel()
-            setResult(Activity.RESULT_OK)
-            finish()
+            timer.cancel()
+            val intent = Intent(
+                mContext, ServiceActivity::class.java
+            )
+            startActivityForResult(intent,900)
             Log.d("TAG", "printData: called 2 finish")
 
         }
@@ -1190,6 +1258,9 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
         if (!connectPrinter()) {
             mPrinter!!.clearCommandBuffer()
+            withContext(Dispatchers.Main){
+                hideProgress()
+            }
             return false
         }
         Log.d("TAG", "printData: called 4 finish")
@@ -1202,8 +1273,15 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
                 mPrinter?.startMonitor()
                 mPrinter?.setInterval(1000)
+            withContext(Dispatchers.Main){
+                hideProgress()
+            }
+
 
         } catch (e: java.lang.Exception) {
+            withContext(Dispatchers.Main){
+                hideProgress()
+            }
             mPrinter!!.clearCommandBuffer()
             mPrinter?.status?.let { makeErrorMessage(it)?.let {
                 it1 ->
@@ -1271,9 +1349,9 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
     private fun intentToMain() {
         //screensavercode
-     //   timer.cancel()
+        timer.cancel()
         val intent = Intent(
-                this, MobileEntryActivity::class.java
+                this, ServiceActivity::class.java
         )
 
         startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK))
@@ -1282,10 +1360,13 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
 
     private fun showToastInfo(message: String) {
-        FancyToast.makeText(
-                this, message, FancyToast.LENGTH_SHORT,
-                FancyToast.INFO, false
-        ).show()
+        var context = this
+        CoroutineScope(Dispatchers.Main).launch {
+            FancyToast.makeText(
+                context, message, FancyToast.LENGTH_SHORT, FancyToast.INFO, false
+            ).show()
+        }
+
     }
 
     override fun onPtrReceive(p0: Printer?, code: Int, PrinterStatusInfo: PrinterStatusInfo?, printJobId: String?) {
@@ -1390,12 +1471,15 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
 
     private fun showProgress() {
+
+        mRecyclerView.isEnabled = false
         mProgressBarMain.visibility = View.VISIBLE
         //mMainLayout.visibility = View.GONE
         mTransparent.visibility = View.VISIBLE
     }
 
     private fun hideProgress() {
+        mRecyclerView.isEnabled = true
         mProgressBarMain.visibility = View.GONE
         // mMainLayout.visibility = View.VISIBLE
         mTransparent.visibility = View.GONE

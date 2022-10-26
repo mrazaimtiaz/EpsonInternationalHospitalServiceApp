@@ -8,6 +8,17 @@
             <PersistentState>
               <option name="children">
                 <map>
+                  <entry key="confirmationStep">
+                    <value>
+                      <PersistentState>
+                        <option name="values">
+                          <map>
+                            <entry key="resourceDirectory" value="release" />
+                          </map>
+                        </option>
+                      </PersistentState>
+                    </value>
+                  </entry>
                   <entry key="imageAssetPanel">
                     <value>
                       <PersistentState>
@@ -24,7 +35,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\DELL\AppData\Local\Temp\ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="/private/var/folders/y_/l_t58dpj14s4gylbxv9lb7m40000gn/T/ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -67,7 +78,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="imagePath" value="C:\Users\DELL\Pictures\zainlogo512.jpg" />
+                                                <entry key="imagePath" value="$USER_HOME$" />
                                                 <entry key="scalingPercent" value="59" />
                                               </map>
                                             </option>
@@ -80,7 +91,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\DELL\AppData\Local\Temp\ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="/private/var/folders/y_/l_t58dpj14s4gylbxv9lb7m40000gn/T/ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -92,7 +103,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\DELL\Pictures\giczain.jpg" />
+                                                <entry key="imagePath" value="$USER_HOME$" />
                                                 <entry key="scalingPercent" value="50" />
                                               </map>
                                             </option>
@@ -126,7 +137,6 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="ffffff" />
                                       <entry key="outputName" value="ic_zain_gic_launcher" />
                                     </map>
                                   </option>
@@ -144,7 +154,20 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\DELL\AppData\Local\Temp\ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="/private/var/folders/y_/l_t58dpj14s4gylbxv9lb7m40000gn/T/ic_android_black_24dp.xml" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                      <entry key="image">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="color" value="000000" />
+                                                <entry key="imagePath" value="$PROJECT_DIR$/app/src/main/res/drawable/padalogo.png" />
+                                                <entry key="paddingPercent" value="-10" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -174,6 +197,12 @@
                                       </entry>
                                     </map>
                                   </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="imageAsset" value="$PROJECT_DIR$/app/src/main/res/drawable/padalogo.png" />
+                                    </map>
+                                  </option>
                                 </PersistentState>
                               </value>
                             </entry>
@@ -188,7 +217,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\DELL\AppData\Local\Temp\ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="/private/var/folders/y_/l_t58dpj14s4gylbxv9lb7m40000gn/T/ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -252,7 +281,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="imagePath" value="C:\Users\DELL\AppData\Local\Temp\ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="/private/var/folders/y_/l_t58dpj14s4gylbxv9lb7m40000gn/T/ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -296,6 +325,11 @@
                                 </PersistentState>
                               </value>
                             </entry>
+                          </map>
+                        </option>
+                        <option name="values">
+                          <map>
+                            <entry key="outputIconType" value="LAUNCHER_LEGACY" />
                           </map>
                         </option>
                       </PersistentState>

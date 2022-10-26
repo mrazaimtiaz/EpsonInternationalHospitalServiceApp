@@ -32,7 +32,8 @@ import java.util.*
 
 class ErrorActivity : AppCompatActivity() {
     private lateinit var viewModel: QViewModel
-    private var branchId = BRANCH_DEFAULT_VALUE
+   // private var branchId = BRANCH_DEFAULT_VALUE
+    private var branchId = 1
 
     private var count = 0
 
@@ -57,7 +58,7 @@ class ErrorActivity : AppCompatActivity() {
 
         lateinit var backEndViewModel: BackEndViewModel
 
-        val backEndViewModelProviderFactory =
+     /*   val backEndViewModelProviderFactory =
             BackEndViewModelProviderFactory(
                 application,
                 qRepository
@@ -71,7 +72,7 @@ class ErrorActivity : AppCompatActivity() {
             backEndViewModel.sendDisplayMessage()
             backEndViewModel.timerDisplay()
         }
-
+*/
         value = intent.getStringExtra(EXTRA_ERROR)
         valueEn = intent.getStringExtra(EXTRA_ERROR_EN)
         branchId = intent.getIntExtra(EXTRA_BRANCH_ID, BRANCH_DEFAULT_VALUE)
@@ -409,8 +410,14 @@ class ErrorActivity : AppCompatActivity() {
                                     }
                                     if (!list.IsOpen!!  || list.IsOnBreak!!) {
                                         CoroutineScope(Dispatchers.Main).launch {
-                                            mTextError.text = list.msgAr.toString()
-                                            mTextErrorEn.text =list.msgEn.toString()
+                                            if(list.msgAr.toString() == "null"){
+                                                list.msgAr = "الفرع مغلق"
+                                            }
+                                            if(list.msgEn.toString() == "null"){
+                                                list.msgEn = "The branch is closed"
+                                            }
+                                            intent.putExtra(EXTRA_ERROR, list.msgAr ?: "الفرع مغلق")
+                                            intent.putExtra(EXTRA_ERROR_EN, list.msgEn ?: "The branch is closed")
                                             delay(Constants.DELAY_CHECK_BRANCH)
                                             try{
                                             if (branchId != BRANCH_DEFAULT_VALUE)

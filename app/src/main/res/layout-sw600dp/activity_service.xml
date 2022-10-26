@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgmain"
+    android:background="@drawable/background"
     android:layoutDirection="ltr"
     android:keepScreenOn="true"
     tools:context="com.epson.epos2_printer.ui.ServiceActivity">
@@ -13,7 +13,7 @@
         android:id="@+id/mMainLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <TextView
+    <!--    <TextView
         android:id="@+id/mTextBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
         app:layout_constraintEnd_toEndOf="@+id/mBack"
         app:layout_constraintStart_toStartOf="@+id/mBack"
         app:layout_constraintTop_toBottomOf="@+id/mBack" />
-
+-->
     <TextView
         android:id="@+id/mTextQuestion"
         style="@style/TextAppearance.MyApp.Headline6"
@@ -34,7 +34,7 @@
         android:layout_marginTop="@dimen/_20sdp"
         android:text="@string/what_whould_you"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -43,6 +43,7 @@
     <TextView
         android:id="@+id/mWithSpecialNeed"
         style="@style/TextAppearance.MyApp.Subtitle1"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_10sdp"
@@ -65,7 +66,7 @@
         app:layout_constraintEnd_toStartOf="@id/mWithSpecialNeed"
         app:layout_constraintTop_toTopOf="@id/mWithSpecialNeed"/>
 
-    <androidx.appcompat.widget.AppCompatImageView
+  <!--  <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/mBack"
         android:layout_width="@dimen/_35sdp"
         android:layout_height="@dimen/_35sdp"
@@ -74,7 +75,7 @@
         android:background="?attr/actionBarItemBackground"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_go_back" />
+        app:srcCompat="@drawable/ic_go_back" />-->
 
 
     <TextView

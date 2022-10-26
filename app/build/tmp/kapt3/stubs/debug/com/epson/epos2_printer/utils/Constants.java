@@ -19,7 +19,7 @@ public final class Constants {
     public static final int INT_ENGLISH = 1;
     public static final int INT_ARABIC = 2;
     @org.jetbrains.annotations.NotNull()
-    public static final java.lang.String BASE_URL = "http://gickuwait-dev.com/qtouch_api_Centralized/";
+    public static final java.lang.String BASE_URL = "http://gickuwait-dev.com/Qtouch_API/";
     @org.jetbrains.annotations.NotNull()
     public static final java.lang.String BASE_URL_LOCAL = "http://gickuwait-dev.com/Qtouch_API/";
     public static final int BRANCH_DEFAULT_VALUE = -999;

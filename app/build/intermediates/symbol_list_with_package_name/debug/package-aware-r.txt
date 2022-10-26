@@ -1,4 +1,4 @@
-com.gicproject.ZainQApp
+com.gicproject.padaqappservice
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -381,8 +381,10 @@ attr fontStyle
 attr fontVariationSettings
 attr fontWeight
 attr foregroundInsidePadding
+attr freezesAnimation
 attr gapBetweenBars
 attr gestureInsetBottomIgnored
+attr gifSource
 attr goIcon
 attr graph
 attr growMode
@@ -425,6 +427,7 @@ attr insetForeground
 attr inverse
 attr isLightTheme
 attr isMaterialTheme
+attr isOpaque
 attr itemBackground
 attr itemFillColor
 attr itemHorizontalPadding
@@ -539,6 +542,7 @@ attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
 attr logo
 attr logoDescription
+attr loopCount
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogTheme
 attr materialAlertDialogTitleIconStyle
@@ -2299,6 +2303,8 @@ drawable all_receipts_info_320
 drawable androidicon
 drawable avd_hide_password
 drawable avd_show_password
+drawable background
+drawable backgroundtwo
 drawable bg_dialog
 drawable bg_dialog_title
 drawable bgmain
@@ -2406,7 +2412,9 @@ drawable numberkeyboard_key_bg_normal
 drawable numberkeyboard_key_bg_pressed
 drawable numberkeyboard_key_bg_transparent
 drawable numberkeyboard_key_text_color
+drawable padalogo
 drawable printable_area_image
+drawable screensaver
 drawable screensaver1
 drawable screensaver2
 drawable segmented_ctrl_radio_button_left_selected
@@ -4190,6 +4198,8 @@ styleable ForegroundLinearLayout android_foreground android_foregroundGravity fo
 styleable Fragment android_name android_id android_tag
 styleable FragmentContainerView android_name android_tag
 styleable FragmentNavigator android_name
+styleable GifTextureView gifSource isOpaque
+styleable GifView freezesAnimation loopCount
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable Insets paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets

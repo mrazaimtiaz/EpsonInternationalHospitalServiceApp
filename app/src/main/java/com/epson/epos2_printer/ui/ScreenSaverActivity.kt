@@ -33,7 +33,7 @@ class ScreenSaverActivity : AppCompatActivity() {
     private val images: MutableList<Int> = mutableListOf()
     var selected = 0
 
-     var  coroutineContext: CoroutineContext? = null
+    var  coroutineContext: CoroutineContext? = null
 
 
     lateinit var backEndViewModel: BackEndViewModel
@@ -42,12 +42,12 @@ class ScreenSaverActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-      //  requestWindowFeature(Window.FEATURE_NO_TITLE)
-     /*   window.setFlags(
-            WindowManager.LayoutParams.FLAG_FULLSCREEN,
-            WindowManager.LayoutParams.FLAG_FULLSCREEN
-        )
-*/
+        //  requestWindowFeature(Window.FEATURE_NO_TITLE)
+        /*   window.setFlags(
+               WindowManager.LayoutParams.FLAG_FULLSCREEN,
+               WindowManager.LayoutParams.FLAG_FULLSCREEN
+           )
+   */
         setContentView(R.layout.activity_screen_saver)
 
 
@@ -75,14 +75,15 @@ class ScreenSaverActivity : AppCompatActivity() {
         backEndViewModel = ViewModelProvider(this, backEndViewModelProviderFactory).get(
             BackEndViewModel::class.java
         )
-        CoroutineScope(Dispatchers.Main).launch {
-            delay(Constants.DELAY_CHECK_BRANCH)
-            backEndViewModel.getCounter()
-            backEndViewModel.sendDisplayMessage()
-            backEndViewModel.timerDisplay()
-            backEndViewModel.callChangeImage()
-        }
-
+        /*
+       CoroutineScope(Dispatchers.Main).launch {
+           delay(Constants.DELAY_CHECK_BRANCH)
+           backEndViewModel.getCounter()
+           backEndViewModel.sendDisplayMessage()
+           backEndViewModel.timerDisplay()
+           backEndViewModel.callChangeImage()
+       }*/
+/*
         if (selected >= images.size) {
             selected = 0
         }
@@ -90,12 +91,13 @@ class ScreenSaverActivity : AppCompatActivity() {
         iv_screensaver.setImageDrawableWithAnimation(getDrawable(images[selected])!!)
 
         iv_screensaver.background = getDrawable(images[selected])!!
-        selected += 1
+        selected += 1*/
 
-        val branchId = getPreference()
+        // val branchId = getPreference()
+        val branchId = 7
 
         viewModel = ViewModelProvider(this, viewModelProviderFactory).get(QViewModel::class.java)
-      //  if (branchId != Constants.BRANCH_DEFAULT_VALUE)
+        //  if (branchId != Constants.BRANCH_DEFAULT_VALUE)
         //   viewModel.isBranchOpen(branchID = branchId)
 
         /* for(i in 1..5){
@@ -107,8 +109,8 @@ class ScreenSaverActivity : AppCompatActivity() {
                  override fun onLoadCleared(@Nullable placeholder: Drawable?) {}
              })
          }*/
-          //  setScreenSaver()
-        observeScreenSaver()
+        //  setScreenSaver()
+        //    observeScreenSaver()
         //  setObserver()
 
 
@@ -118,13 +120,13 @@ class ScreenSaverActivity : AppCompatActivity() {
         backEndViewModel.changeImage.observe(this, Observer {
             coroutineContext = CoroutineScope(Dispatchers.Main).launch {
                 Log.d("TAG", "observeScreenSaver: called image change")
-            delay(10000)
-            if (selected >= images.size) {
-                selected = 0
-            }
+                delay(10000)
+                if (selected >= images.size) {
+                    selected = 0
+                }
                 iv_screensaver.setImageDrawableWithAnimation(getDrawable(images[selected])!!)
 
-              //  iv_screensaver.setImageDrawable(getDrawable(images[selected])!!);
+                //  iv_screensaver.setImageDrawable(getDrawable(images[selected])!!);
 
                 iv_screensaver.background = getDrawable(images[selected])!!
                 selected += 1
@@ -134,7 +136,7 @@ class ScreenSaverActivity : AppCompatActivity() {
                 backEndViewModel.callChangeImage()
 
 
-        }
+            }
 
         })
     }
@@ -168,7 +170,7 @@ class ScreenSaverActivity : AppCompatActivity() {
 
 
         CoroutineScope(Dispatchers.Main).launch {
-           // iv_screensaver.setImageDrawable(getDrawable(images[selected])!!);
+            // iv_screensaver.setImageDrawable(getDrawable(images[selected])!!);
             iv_screensaver.setImageDrawableWithAnimation(getDrawable(images[selected])!!)
 
             iv_screensaver.background = getDrawable(images[selected])!!
@@ -189,19 +191,19 @@ class ScreenSaverActivity : AppCompatActivity() {
 
     }
 
-  /*  override fun onWindowFocusChanged(hasFocus: Boolean) {
-        super.onWindowFocusChanged(hasFocus)
-        //This is used to hide/show 'Status Bar' & 'System Bar'. Swip bar to get it as visible.
-        val decorView = window.decorView
-        if (hasFocus) {
-            decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-                    or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
-                    or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-                    or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-                    or View.SYSTEM_UI_FLAG_FULLSCREEN
-                    or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY)
-        }
-    }*/
+    /*  override fun onWindowFocusChanged(hasFocus: Boolean) {
+          super.onWindowFocusChanged(hasFocus)
+          //This is used to hide/show 'Status Bar' & 'System Bar'. Swip bar to get it as visible.
+          val decorView = window.decorView
+          if (hasFocus) {
+              decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                      or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                      or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                      or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                      or View.SYSTEM_UI_FLAG_FULLSCREEN
+                      or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY)
+          }
+      }*/
 
 
     //******************************************* observer ******************************************************
@@ -230,7 +232,8 @@ class ScreenSaverActivity : AppCompatActivity() {
                                     val intent = Intent(
                                         this, ServiceActivity::class.java
                                     )
-                                    val branchId = getPreference()
+                                    // val branchId = getPreference()
+                                    val branchId = 7
                                     CoroutineScope(Dispatchers.Main).launch {
                                         delay(Constants.DELAY_CHECK_BRANCH)
                                         if (branchId != Constants.BRANCH_DEFAULT_VALUE)
@@ -247,7 +250,9 @@ class ScreenSaverActivity : AppCompatActivity() {
                                     intent.putExtra(Constants.EXTRA_ERROR, list.msgAr)
                                     intent.putExtra(Constants.EXTRA_ERROR_EN, list.msgEn)
                                     // intent.putExtra(EXTRA_ERROR, getString(R.string.branch_is_closed))
-                                    intent.putExtra(Constants.EXTRA_BRANCH_ID, getPreference())
+                                    // intent.putExtra(Constants.EXTRA_BRANCH_ID, getPreference())
+                                    intent.putExtra(Constants.EXTRA_BRANCH_ID,7)
+
                                     startActivityForResult(intent, 900)
                                 }
                             }

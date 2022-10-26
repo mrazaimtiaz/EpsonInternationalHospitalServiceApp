@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EpsonZainQApp.iml" filepath="$PROJECT_DIR$/.idea/modules/EpsonZainQApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonZainQApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonZainQApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EpsonPadaQServiceApp.iml" filepath="$PROJECT_DIR$/.idea/modules/EpsonPadaQServiceApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.unitTest.iml" />
     </modules>
   </component>
 </project>

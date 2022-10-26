@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yousefalholy/Desktop/Mohammad Raza/drive/AndroidProject/GICProject/EpsonZainQApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
+            "outputFile": "/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
             "map": [
                 {
-                    "source": "/Users/yousefalholy/.gradle/caches/transforms-2/files-2.1/1d137e31f100638d7fa0478fa9c8a03b/core-1.2.0/res/values-tl/values-tl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "32",
-                        "startColumns": "4",
-                        "startOffsets": "3166",
-                        "endColumns": "100",
-                        "endOffsets": "3262"
-                    }
-                },
-                {
-                    "source": "/Users/yousefalholy/.gradle/caches/transforms-2/files-2.1/1816ed02278f0bb9d8b2bd6486a463fc/appcompat-1.1.0/res/values-tl/values-tl.xml",
+                    "source": "/Users/gic/.gradle/caches/transforms-2/files-2.1/1816ed02278f0bb9d8b2bd6486a463fc/appcompat-1.1.0/res/values-tl/values-tl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/yousefalholy/.gradle/caches/transforms-2/files-2.1/c65b0077980178e541bbe77bd8a926c4/navigation-ui-2.2.2/res/values-tl/values-tl.xml",
+                    "source": "/Users/gic/.gradle/caches/transforms-2/files-2.1/1d137e31f100638d7fa0478fa9c8a03b/core-1.2.0/res/values-tl/values-tl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "32",
+                        "startColumns": "4",
+                        "startOffsets": "3166",
+                        "endColumns": "100",
+                        "endOffsets": "3262"
+                    }
+                },
+                {
+                    "source": "/Users/gic/.gradle/caches/transforms-2/files-2.1/c65b0077980178e541bbe77bd8a926c4/navigation-ui-2.2.2/res/values-tl/values-tl.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
