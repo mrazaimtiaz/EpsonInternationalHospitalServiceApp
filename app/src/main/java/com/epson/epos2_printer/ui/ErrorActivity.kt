@@ -32,8 +32,8 @@ import java.util.*
 
 class ErrorActivity : AppCompatActivity() {
     private lateinit var viewModel: QViewModel
-   // private var branchId = BRANCH_DEFAULT_VALUE
-    private var branchId = 1
+    private var branchId = BRANCH_DEFAULT_VALUE
+
 
     private var count = 0
 

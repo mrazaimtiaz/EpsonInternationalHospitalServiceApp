@@ -81,8 +81,8 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
 
 
-   // private var branchId = BRANCH_DEFAULT_VALUE
-    private var branchId = 1
+    private var branchId = BRANCH_DEFAULT_VALUE
+   // private var branchId = 1
     private var checkedNumber = false
     private var mobileNumber: String? = ""
 
@@ -181,12 +181,13 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
         mobileNumber = intent.getStringExtra(EXTRA_MOBILE_NUMBER)
         checkedNumber = intent.getBooleanExtra(EXTRA_CHECKED_NUMBER, false)
-       // branchId = intent.getIntExtra(EXTRA_BRANCH_ID, BRANCH_DEFAULT_VALUE)
+        branchId = intent.getIntExtra(EXTRA_BRANCH_ID, BRANCH_DEFAULT_VALUE)
 
         setupRecyclerView()
       //  Log.d("TAG", "onCreate: printer status ${mPrinter?.status?.let { makeErrorMessage(it) }}")
         clickListener()
         observer()
+        Log.d("TAG", "onCreateb: $branchId")
         if (branchId != BRANCH_DEFAULT_VALUE) {
             viewModel.getServices(branchId)
         } else {
@@ -544,7 +545,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
                         cancelTimer()
 
                         val intent = Intent(
-                            this, ServiceActivity::class.java
+                            this, IntializeSettingActivity::class.java
                         )
                         startActivityForResult(intent,900)
 

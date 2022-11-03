@@ -26,6 +26,7 @@ import android.provider.Settings
 import androidx.annotation.RequiresApi
 import com.epson.epos2_printer.viewmodel.BackEndViewModel
 import com.epson.epos2_printer.viewmodel.BackEndViewModelProviderFactory
+import kotlinx.android.synthetic.main.activity_mobile_entry.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
@@ -77,8 +78,8 @@ class SplashActivity : AppCompatActivity() {
         }*/
         viewModel = ViewModelProvider(this, viewModelProviderFactory).get(QViewModel::class.java)
         setObserver()
-      //  val branchId = getPreference()
-        val branchId = 1
+        val branchId = getPreference()
+
 
         if (branchId != Constants.BRANCH_DEFAULT_VALUE)
             viewModel.isBranchOpen(branchID = branchId)
@@ -163,7 +164,6 @@ class SplashActivity : AppCompatActivity() {
                 Constants.BRANCH_AUTH,
                 0
         ) // 0 - for private mode
-
         return pref.getInt(Constants.BRANCH_AUTH_ID, Constants.BRANCH_DEFAULT_VALUE)
 
     }
@@ -232,9 +232,15 @@ class SplashActivity : AppCompatActivity() {
 
     //******************************************* intent main **********************************************
     private fun intentMain() {
+
+        val branchId = getPreference()
         val intent = Intent(
                 this, ServiceActivity::class.java
         )
+        intent.putExtra(Constants.EXTRA_BRANCH_ID, branchId)
+        intent.putExtra(Constants.EXTRA_CHECKED_NUMBER,false)
+        intent.putExtra(Constants.EXTRA_MOBILE_NUMBER, "")
+        startActivityForResult(intent,900)
         startActivityForResult(intent,900)
        // startActivity(intent)
     }

@@ -22,6 +22,7 @@ import com.epson.epos2_printer.viewmodel.BackEndViewModel
 import com.epson.epos2_printer.viewmodel.BackEndViewModelProviderFactory
 import com.epson.epos2_printer.viewmodel.QViewModel
 import com.epson.epos2_printer.viewmodel.QViewModelProviderFactory
+import com.shashank.sony.fancytoastlib.FancyToast
 import kotlinx.android.synthetic.main.activity_screen_saver.*
 import kotlinx.coroutines.*
 import kotlin.coroutines.CoroutineContext
@@ -93,8 +94,8 @@ class ScreenSaverActivity : AppCompatActivity() {
         iv_screensaver.background = getDrawable(images[selected])!!
         selected += 1*/
 
-        // val branchId = getPreference()
-        val branchId = 7
+         val branchId = getPreference()
+       // val branchId = 7
 
         viewModel = ViewModelProvider(this, viewModelProviderFactory).get(QViewModel::class.java)
         //  if (branchId != Constants.BRANCH_DEFAULT_VALUE)
@@ -115,6 +116,8 @@ class ScreenSaverActivity : AppCompatActivity() {
 
 
     }
+
+
 
     fun observeScreenSaver(){
         backEndViewModel.changeImage.observe(this, Observer {
@@ -232,8 +235,7 @@ class ScreenSaverActivity : AppCompatActivity() {
                                     val intent = Intent(
                                         this, ServiceActivity::class.java
                                     )
-                                    // val branchId = getPreference()
-                                    val branchId = 7
+                                     val branchId = getPreference()
                                     CoroutineScope(Dispatchers.Main).launch {
                                         delay(Constants.DELAY_CHECK_BRANCH)
                                         if (branchId != Constants.BRANCH_DEFAULT_VALUE)

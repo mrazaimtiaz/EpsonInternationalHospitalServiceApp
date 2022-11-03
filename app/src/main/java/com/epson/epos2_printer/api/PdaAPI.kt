@@ -38,8 +38,16 @@ interface PdaAPI {
     
     @GET("api/GetServices")
     suspend fun getServices(@Query("branchID") branchID: Int): Response<List<Services>>
+    @POST("api/BookTicketfrmBranch")
+    suspend fun getBookTicket(@Query("serviceID") serviceID: Int,
+                              @Query("IsHandicap") IsHandicap: Boolean,
+                              @Query("isVip") isVip: Boolean,
+                              @Query("languageID") languageID: Int,
+                              @Query("AppointmentCode") AppointmentCode: Int,
+                              @Query("Customer_CivilID") Customer_CivilID: Int =0,
+                              @Query("branchId") branchId: Int,): Response<List<BookTicket>>
 
-    @POST("api/BookTicket")
+/*    @POST("api/BookTicket")
     suspend fun getBookTicket(@Query("mobileNumber") mobileNumber: String,
                               @Query("serviceID") serviceID: Int,
                               @Query("IsHandicap") IsHandicap: Boolean,
@@ -47,8 +55,7 @@ interface PdaAPI {
                               @Query("languageID") languageID: Int,
                               @Query("AppointmentCode") AppointmentCode: Int,
                               @Query("branchId") branchId: Int,
-                              @Query("QbranchID") QbranchID: Int): Response<List<BookTicket>>
-
+                              @Query("QbranchID") QbranchID: Int): Response<List<BookTicket>>*/
     @GET("api/GetTicket")
     suspend fun getTicket(@Query("QueueID") QueueID: Int, @Query("language") language: Int): Response<List<GetTicket>>
 

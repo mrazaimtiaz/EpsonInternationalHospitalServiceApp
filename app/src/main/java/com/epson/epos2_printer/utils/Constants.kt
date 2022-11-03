@@ -24,7 +24,8 @@ object Constants {
     //10.99.55.22
     //http://qms.kw.zain.com qurain both branches
    //   const val BASE_URL = "http://10.99.55.22/qtouch_api_Centralized/"
-    const val BASE_URL = "http://gickuwait-dev.com/Qtouch_API/"
+    const val BASE_URL = "http://192.168.201.209/Qtouch_API/" //pada
+   // const val BASE_URL = "http://gickuwait-dev.com/Qtouch_API/"
     //http://10.151.0.31/qtouch_api_test
     //http://qms.kw.zain.com
     //http://10.151.0.31/

@@ -7,7 +7,7 @@ public final class ServiceActivity extends androidx.appcompat.app.AppCompatActiv
     private int count = 0;
     private com.epson.epos2_printer.viewmodel.QViewModel viewModel;
     private com.epson.epos2_printer.adapter.ServiceAdapter serviceAdapter;
-    private int branchId = 1;
+    private int branchId = -999;
     private boolean checkedNumber = false;
     private java.lang.String mobileNumber = "";
     private long serviceTimer = 0L;
