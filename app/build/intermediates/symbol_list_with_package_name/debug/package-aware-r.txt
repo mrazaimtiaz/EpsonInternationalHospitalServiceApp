@@ -1,4 +1,4 @@
-com.gicproject.padaqappservice
+com.gicproject.epsonseefservice
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -2417,6 +2417,7 @@ drawable printable_area_image
 drawable screensaver
 drawable screensaver1
 drawable screensaver2
+drawable seefbg
 drawable segmented_ctrl_radio_button_left_selected
 drawable segmented_ctrl_radio_button_left_unselected
 drawable segmented_ctrl_radio_button_right_selected
@@ -2543,6 +2544,13 @@ id btnStartMonitor
 id btnStopGetstatus
 id btnStopMonitor
 id btnUpdateFirmware
+id btn_b
+id btn_back
+id btn_g
+id btn_loop
+id btn_r
+id btn_scrolling
+id btn_stop
 id buttonPanel
 id cancel_action
 id cancel_button
@@ -2696,6 +2704,7 @@ id mInputNumber
 id mMainLayout
 id mNumberKeyboard
 id mOpenApp
+id mOpenDeviceSetting
 id mPort
 id mProceedAr
 id mProceedEn
@@ -2821,6 +2830,10 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id seekbar_L
+id seekbar_b
+id seekbar_g
+id seekbar_r
 id select_dialog_listview
 id selected
 id shortcut
@@ -2939,6 +2952,9 @@ id vertical
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
+id waitingCustomer
+id waitingCustomerAr
+id waitingCustomerCount
 id water_drop
 id withText
 id withinBounds
@@ -3012,6 +3028,7 @@ layout activity_discovery
 layout activity_error
 layout activity_firmwareupdate
 layout activity_intialize_setting
+layout activity_led
 layout activity_locked
 layout activity_main
 layout activity_manual

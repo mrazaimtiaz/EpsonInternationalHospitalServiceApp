@@ -29,7 +29,7 @@ android {
         }
 
 
-        applicationId "com.gicproject.padaqappservice"
+        applicationId "com.gicproject.epsonseefservice"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 33

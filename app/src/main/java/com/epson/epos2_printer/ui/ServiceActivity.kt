@@ -3,24 +3,24 @@ package com.epson.epos2_printer.ui
 import android.Manifest
 import android.annotation.SuppressLint
 import android.app.Activity
+import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Point
-import android.os.BatteryManager
-import android.os.Build
-import android.os.Bundle
-import android.os.CountDownTimer
+import android.os.*
 import android.util.Base64
 import android.util.Log
 import android.view.*
+import android_serialport_api.SerialPort
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
 import androidx.recyclerview.widget.GridLayoutManager
 import com.epson.epos2.Epos2Exception
 import com.epson.epos2.discovery.Discovery
@@ -35,6 +35,8 @@ import com.epson.epos2_printer.ShowMsg
 import com.epson.epos2_printer.adapter.ServiceAdapter
 import com.epson.epos2_printer.api.RetrofitInstance
 import com.epson.epos2_printer.api.RetrofitInstanceLocal
+import com.epson.epos2_printer.led.LampsUtil
+import com.epson.epos2_printer.led.UartSend
 import com.epson.epos2_printer.models.IsService
 import com.epson.epos2_printer.models.Services
 import com.epson.epos2_printer.repository.QRepository
@@ -66,6 +68,8 @@ import kotlinx.android.synthetic.main.activity_service.*
 import kotlinx.android.synthetic.main.activity_setting_new.*
 import kotlinx.android.synthetic.main.item_services.view.*
 import kotlinx.coroutines.*
+import java.io.File
+import java.io.FileOutputStream
 import java.io.IOException
 import java.net.URL
 import java.util.*
@@ -147,7 +151,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
         setContentView(R.layout.activity_service)
 
         //screensavercode
-        startTimer()
+    //    startTimer()
 
 
         val qRepository = QRepository()
@@ -184,8 +188,20 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
         branchId = intent.getIntExtra(EXTRA_BRANCH_ID, BRANCH_DEFAULT_VALUE)
 
         setupRecyclerView()
-      //  Log.d("TAG", "onCreate: printer status ${mPrinter?.status?.let { makeErrorMessage(it) }}")
+      //  Log.d("TAG", gewh "onCreate: printer status ${mPrinter?.status?.let { makeErrorMessage(it) }}")
         clickListener()
+
+        try{
+
+            var lampUtil: LampsUtil = LampsUtil()
+        }catch (e: java.lang.Exception){
+
+        }
+
+
+        greenLamps()
+
+     //   turnGreenLight(this)
         observer()
         Log.d("TAG", "onCreateb: $branchId")
         if (branchId != BRANCH_DEFAULT_VALUE) {
@@ -290,6 +306,9 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
         override fun onFinish() {
             Log.d("TAG", "onFinish: called ")
             finish()
+            intent.putExtra(Constants.EXTRA_BRANCH_ID, branchId)
+            intent.putExtra(Constants.EXTRA_CHECKED_NUMBER,false)
+            intent.putExtra(Constants.EXTRA_MOBILE_NUMBER, "")
             val intent = Intent(
                 this@ServiceActivity, ScreenSaverActivity::class.java
             )
@@ -326,7 +345,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
             //screensavercode
             cancelTimer()
             //screensavercode
-            startTimer()
+           // startTimer()
 
         // call super
         return super.dispatchTouchEvent(ev)
@@ -435,11 +454,14 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
+        greenLamps()
+      //  turnGreenLight(this)
         //screensavercode
         cancelTimer()
-        startTimer()
+       // startTimer()
         try {
             if (branchId != BRANCH_DEFAULT_VALUE) {
+
                 viewModel.getServices(branchId)
                 viewModel.isBranchOpen(branchID = branchId)
             }
@@ -570,6 +592,10 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
         }
 
         serviceAdapter.setOnItemClickListener { services, view ->
+
+
+            blueLamps()
+           // turnWhiteLight(this)
             showProgress()
             if (checkedNumber) {
                 if (Locale.getDefault().displayLanguage != DISPLAY_LNG_ARABIC)
@@ -1251,6 +1277,9 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
             val intent = Intent(
                 mContext, ServiceActivity::class.java
             )
+            intent.putExtra(Constants.EXTRA_BRANCH_ID, branchId)
+            intent.putExtra(Constants.EXTRA_CHECKED_NUMBER,false)
+            intent.putExtra(Constants.EXTRA_MOBILE_NUMBER, "")
             startActivityForResult(intent,900)
             Log.d("TAG", "printData: called 2 finish")
 
@@ -1579,6 +1608,252 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
         }
 
+    }
+
+
+}
+
+
+fun WhiteLedCode(context: Context){
+
+
+    val ACTION_CHANGE_LED_COLOR = "action.CHANGE_LED_COLOR"
+    val intent = Intent(ACTION_CHANGE_LED_COLOR)
+
+    val red: Int = 255 // Maximum intensity (fully red)
+    val green: Int = 255 // Maximum intensity (fully green)
+    val blue: Int = 255 // Maximum intensity (fully blue)
+
+    val brightness: Int = 127 // No green intensity
+    val color: Int =(brightness shl 24 ) or (red shl 16) or (green shl 8) or blue
+    intent.putExtra("color", color)
+    context.sendBroadcast(intent);
+}
+
+
+
+fun turnGreenLight(context: Context){
+    try{
+        //  closeLed(context)
+        CoroutineScope(Dispatchers.IO).launch {
+            delay(100)
+            greenLedCode(context)
+            delay(100)
+            greenLedCode(context)
+        }
+
+    }catch ( e: java.lang.Exception){
+
+    }
+}
+
+
+fun turnRedLight(context: Context){
+    try{
+        //  closeLed(context)
+        CoroutineScope(Dispatchers.IO).launch {
+            delay(100)
+            RedLedCode(context)
+            delay(100)
+            RedLedCode(context)
+        }
+
+    }catch ( e: java.lang.Exception){
+
+    }
+}
+
+fun turnWhiteLight(context: Context){
+    try{
+        //  closeLed(context)
+        CoroutineScope(Dispatchers.IO).launch {
+            delay(100)
+            WhiteLedCode(context)
+            delay(100)
+            WhiteLedCode(context)
+        }
+
+    }catch ( e: java.lang.Exception){
+
+    }
+}
+fun RedLedCode(context: Context){
+
+
+    val ACTION_CHANGE_LED_COLOR = "action.CHANGE_LED_COLOR"
+    val intent = Intent(ACTION_CHANGE_LED_COLOR)
+
+    val red: Int = 255 // Maximum intensity (fully red)
+    val brightness: Int = 127 // No green intensity
+    val green: Int = 0 // No green intensity
+    val blue: Int = 0 // No blue intensity
+    val color: Int =(brightness shl 24 ) or (red shl 16) or (green shl 8) or blue
+
+    intent.putExtra("color", color)
+    context.sendBroadcast(intent);
+}
+
+
+fun blueLed(context: Context){
+
+
+    val ACTION_CHANGE_LED_COLOR = "action.CHANGE_LED_COLOR"
+    val intent = Intent(ACTION_CHANGE_LED_COLOR)
+
+    val red: Int = 0 // Maximum intensity (fully red)
+    val brightness: Int = 127 // No green intensity
+    val green: Int =0 // No green intensity
+    val blue: Int = 255 // No blue intensity
+    val color: Int =(brightness shl 24 ) or (red shl 16) or (green shl 16) or blue
+
+    intent.putExtra("color", color)
+    context.sendBroadcast(intent);
+}
+
+
+
+
+fun greenLedCode(context: Context){
+
+
+    val ACTION_CHANGE_LED_COLOR = "action.CHANGE_LED_COLOR"
+    val intent = Intent(ACTION_CHANGE_LED_COLOR)
+
+    val brightness: Int = 127 // No green intensity
+    val red: Int = 0 // No red intensity
+    val green: Int = 255 // Maximum intensity (fully green)
+    val blue: Int = 0 // No blue intensity
+
+    val color: Int =(brightness shl 24 ) or (red shl 16) or (green shl 8) or blue
+
+    intent.putExtra("color", color)
+    context.sendBroadcast(intent);
+}
+
+
+fun closeLed(context: Context){
+
+
+    val ACTION_CHANGE_LED_COLOR = "action.CHANGE_LED_COLOR"
+    val intent = Intent(ACTION_CHANGE_LED_COLOR)
+
+
+    intent.putExtra("color", 1)
+    context.sendBroadcast(intent);
+}
+
+
+private fun writeValue(gpo: String, value: String) {
+    val file = File(gpo)
+    val os: FileOutputStream?
+    try {
+        os = FileOutputStream(file, true)
+        os.write(value.toByteArray())
+        os.close()
+    } catch (e: Exception) {
+        e.printStackTrace()
+    }
+}
+
+//light
+@Throws(IOException::class)
+fun blueLamps() {
+
+    val runnableLoop: java.lang.Runnable = object : java.lang.Runnable {
+        @SuppressLint("SuspiciousIndentation")
+        override fun run() {
+            try {
+                val ttyS1 = SerialPort(File("/dev/ttyS1"), 115200, 0)
+                UartSend.UartAllB(ttyS1, "ttyS1").run()
+
+            } catch (e: SecurityException) {
+                e.printStackTrace()
+            } catch (e: IOException) {
+                e.printStackTrace()
+            } catch (e: NoClassDefFoundError) {
+                e.printStackTrace()
+            }
+
+        }
+    }
+    runnableLoop.run()
+}
+
+@Throws(IOException::class)
+fun greenLamps() {
+    val runnableLoop: java.lang.Runnable = object : java.lang.Runnable {
+        //LOOP thread
+        @SuppressLint("SuspiciousIndentation")
+        override fun run() {
+            try {
+                val ttyS1 = SerialPort(File("/dev/ttyS1"), 115200, 0)
+                UartSend.UartAllG(ttyS1, "ttyS1").run()
+
+            } catch (e: SecurityException) {
+                e.printStackTrace()
+            } catch (e: IOException) {
+                e.printStackTrace()
+            } catch (e: NoClassDefFoundError) {
+                e.printStackTrace()
+            }
+        }
+    }
+    runnableLoop.run()
+}
+
+@Throws(IOException::class)
+fun redLamps() {
+    val runnableLoop: java.lang.Runnable = object : java.lang.Runnable {
+        //LOOP thread
+        @SuppressLint("SuspiciousIndentation")
+        override fun run() {
+            try {
+                var ttyS1 = SerialPort(File("/dev/ttyS1"), 115200, 0)
+                UartSend.UartAllR(ttyS1, "ttyS1").run()
+
+            } catch (e: SecurityException) {
+                e.printStackTrace()
+            } catch (e: IOException) {
+                e.printStackTrace()
+            }
+        }
+    }
+    runnableLoop.run()
+}
+
+@Throws(IOException::class)
+fun yellowLamps() {
+    val handlerLoop = Handler()
+    val runnableLoop: java.lang.Runnable = object : java.lang.Runnable {
+        @SuppressLint("SuspiciousIndentation")
+        override fun run() {
+            try {
+                Log.d("TAG", "run: called run")
+                var ttyS1 = SerialPort(File("/dev/ttyS1"), 115200, 0)
+                UartSend.UartAllG(ttyS1, "ttyS1").run()
+
+            } catch (e: SecurityException) {
+                e.printStackTrace()
+            } catch (e: IOException) {
+                e.printStackTrace()
+            }
+        }
+    }
+    runnableLoop.run()
+
+
+}
+
+fun offLamps() {
+    CoroutineScope(Dispatchers.IO).launch {
+        try {
+            var ttyS1 = SerialPort(File("/dev/ttyS1"), 115200, 0)
+            UartSend.UartAllOff(ttyS1, "ttyS1").run()
+        } catch (e: SecurityException) {
+            e.printStackTrace()
+        } catch (e: IOException) {
+            e.printStackTrace()
+        }
     }
 
 

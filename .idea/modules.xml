@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EpsonPadaQServiceApp.iml" filepath="$PROJECT_DIR$/.idea/modules/EpsonPadaQServiceApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonPadaQServiceApp.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EpsonAlSeefServiceApp.iml" filepath="$PROJECT_DIR$/.idea/modules/EpsonAlSeefServiceApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.unitTest.iml" />
     </modules>
   </component>
 </project>

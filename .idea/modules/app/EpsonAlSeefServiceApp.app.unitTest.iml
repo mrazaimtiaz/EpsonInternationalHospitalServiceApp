@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":app:androidTest" external.linked.project.path="$MODULE_DIR$/../../../app" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":app:unitTest" external.linked.project.path="$MODULE_DIR$/../../../app" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/main/res;file://$MODULE_DIR$/../../../app/src/debug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/androidTest/res;file://$MODULE_DIR$/../../../app/src/androidTestDebug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="5" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false">
         <compilerSettings>
@@ -14,13 +30,14 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/364cebeed54fe78678f9a1776245af8f/jetified-ePOS2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c5acefb7d1630e45dacf46515f3bea8/navigation-ui-ktx-2.2.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1156a2d84a9ee7ec01f63cc4ae148ae/navigation-ui-2.2.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a25b6b27cf39d68e100568462056a83e/material-1.3.0-alpha01-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2b973c4aa1ea106eac5e615c1e2f9fdd/jetified-starioextension-1.15.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/18be2c27217324e8ef4c7d61c486d00d/appcompat-1.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/209ad744069a6877fccec77b3cf2330e/jetified-library-1.2.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/39a8fe570cefef2b43d02ad737120100/jetified-library-1.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51988332c5dc7a063bceefe6ff4b18e3/navigation-fragment-ktx-2.2.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fbd2480956602c875274032eed2e5eb0/navigation-runtime-ktx-2.2.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e54b4b5d1c0513d3e3c6504708b9b3a/jetified-fragment-ktx-1.2.4-api.jar</arg>
@@ -29,7 +46,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acb1ce5a83dbd899f627e752a92ebaad/jetified-hilt-lifecycle-viewmodel-1.0.0-alpha01-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f56fafe8e4bb46c2c77abfa68219c5a6/jetified-hilt-android-2.28-alpha-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/897bd31ef4b257f72a0e4f5b08c4face/cardview-1.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/73222d0660b0b7511862c075a4e8605b/jetified-smcloudservices-1.4.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f92cb68a86027ac5edaf5ae263be862a/jetified-smcloudservices-1.4.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a340dd90212b5131f83f0f2ed95d4bab/legacy-support-v4-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e84cd76c6f58935cb468c44b8d7e79e7/legacy-support-core-ui-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b0051712c7fbf88ec66703a4a18de14/coordinatorlayout-1.1.0-api.jar</arg>
@@ -107,12 +124,12 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.3/54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e/constraintlayout-solver-1.1.3.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/94696577589a7fda088ef39774fc41e9/jetified-disklrucache-4.12.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c289b6ada394282cdc46642de95fed9d/jetified-annotations-4.12.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fdf0c11da8eb46d7371909afa6e1b05e/jetified-autoimageslider-1.4.0-appcompat-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2e2f37512f9e2270445e754eaac3c08/jetified-core-1.8.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d82decd86963829e884229d16f0107b1/jetified-autoimageslider-1.4.0-appcompat-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b543eda1e5a6772553f494b69b64ebca/jetified-core-1.8.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3ceb4460328de6f021e460a9c17bc3af/jetified-sdp-android-1.0.6-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d4d44e66245cb007eb7b4e8ca5aff4c1/jetified-ssp-android-1.0.6-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0333ab8b84911d86baf295bba98d74c1/jetified-gson-2.8.5.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d32dc3e164233eeb99750e96753288c/jetified-recyclerview-swipedecorator-1.2.2-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/847932b716f1c6d64e3b64f010f5c68c/jetified-recyclerview-swipedecorator-1.2.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b47f312a8449c351393732ffbb2281b/jetified-dagger-2.28.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3f4e3dc7b51f79a5a8e4fe6aeab00cab/jetified-javax.inject-1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/16fc78040e06a55d09475bcd7a459d5a/jetified-dagger-lint-aar-2.28-api.jar</arg>
@@ -123,10 +140,13 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cfe21fcd06c372e4570dbbcdd26e0d3e/jetified-lingver-1.3.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/76b13b2b0832460d34d525336bb13821/jetified-universal-image-loader-1.9.5.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64dee52421e8a45a193655ffeb65a82d/jetified-process-phoenix-2.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes</arg>
+                <arg>$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug</arg>
+                <arg>$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debug</arg>
                 <arg>$USER_HOME$/Library/Android/sdk/platforms/android-30/android.jar</arg>
               </args>
             </stringArg>
-            <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debugAndroidTest" />
+            <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debugUnitTest" />
             <stringArg name="jvmTarget" arg="1.6" />
             <stringArg name="moduleName" arg="app_debug" />
             <stringArg name="apiVersion" arg="1.4" />
@@ -138,7 +158,7 @@
                 <arg>$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug</arg>
                 <arg>$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes</arg>
                 <arg>$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debug</arg>
-                <arg>$MODULE_DIR$/../../../app/build/intermediates/app_classes/debug/classes.jar</arg>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
               </args>
             </arrayArg>
             <arrayArg name="pluginClasspaths">
@@ -165,43 +185,23 @@
         </compilerArguments>
       </configuration>
     </facet>
-    <facet type="android" name="Android">
-      <configuration>
-        <option name="SELECTED_BUILD_VARIANT" value="debug" />
-        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
-        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
-        <afterSyncTasks>
-          <task>generateDebugSources</task>
-        </afterSyncTasks>
-        <option name="ALLOW_USER_CONFIGURATION" value="false" />
-        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
-        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/main/res;file://$MODULE_DIR$/../../../app/src/debug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/debug" />
-        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/androidTest/res;file://$MODULE_DIR$/../../../app/src/androidTestDebug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/androidTest/debug" />
-        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
-      </configuration>
-    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/aidl_source_output_dir/debugAndroidTest/out" />
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debugAndroidTest/out" />
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/renderscript_source_output_dir/debugAndroidTest/out" />
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/res/rs/androidTest/debug" />
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/androidTest/debug" />
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debugAndroidTest" />
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debugAndroidTest">
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debugAndroidTest" isTestSource="true" generated="true" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debugUnitTest/out" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debugUnitTest" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debugUnitTest" isTestSource="true" generated="true" />
     </content>
-    <content url="file://$MODULE_DIR$/../../../app/src/androidTest" />
-    <content url="file://$MODULE_DIR$/../../../app/src/androidTestDebug" />
+    <content url="file://$MODULE_DIR$/../../../app/src/test" />
+    <content url="file://$MODULE_DIR$/../../../app/src/testDebug" />
     <orderEntry type="jdk" jdkName="Android API 30 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Gradle: ./app/libs/ePOS2.jar" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: kaptGeneratedClasses">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debugAndroidTest" />
+          <root url="file://$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debugUnitTest" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -316,5 +316,5 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.github.YarikSOffice:lingver:1.3.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.jakewharton:process-phoenix:2.0.0@aar" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="EpsonPadaQServiceApp.app.main" />
+  <component name="TestModuleProperties" production-module="EpsonAlSeefServiceApp.app.main" />
 </module>

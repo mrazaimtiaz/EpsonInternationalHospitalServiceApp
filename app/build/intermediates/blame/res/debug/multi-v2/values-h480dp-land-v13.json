@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
                     "source": "/Users/gic/.gradle/caches/transforms-2/files-2.1/89067e50bb99b7662ddda65f424d8703/material-1.3.0-alpha01/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",

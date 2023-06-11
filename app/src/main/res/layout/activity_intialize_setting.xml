@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:keepScreenOn="true"
+    android:layoutDirection="ltr"
+    tools:context="com.epson.epos2_printer.ui.IntializeSettingActivity">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:keepScreenOn="true"
     android:layoutDirection="ltr"
     tools:context="com.epson.epos2_printer.ui.IntializeSettingActivity">
@@ -86,6 +94,19 @@
         app:layout_constraintTop_toBottomOf="@+id/mRestart" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/mOpenDeviceSetting"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_18sdp"
+        android:text="Open Device Setting"
+        android:textSize="@dimen/_10sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mDefault" />
+
+
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/mOpenApp"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_35sdp"
@@ -95,7 +116,8 @@
         android:text="Open App on Google Play"
         android:textSize="@dimen/_10sdp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mDefault" />
+        app:layout_constraintTop_toBottomOf="@+id/mOpenDeviceSetting" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>

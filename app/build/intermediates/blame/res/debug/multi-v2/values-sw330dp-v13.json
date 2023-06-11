@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw330dp-v13/values-sw330dp-v13.xml",
+            "outputFile": "/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw330dp-v13/values-sw330dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/gic/.gradle/caches/transforms-2/files-2.1/c54324e895a07309e818551e785fbfdd/jetified-ssp-android-1.0.6/res/values-sw330dp-v13/values-sw330dp-v13.xml",

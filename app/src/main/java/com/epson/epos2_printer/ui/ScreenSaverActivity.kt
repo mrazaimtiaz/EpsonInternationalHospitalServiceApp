@@ -252,8 +252,8 @@ class ScreenSaverActivity : AppCompatActivity() {
                                     intent.putExtra(Constants.EXTRA_ERROR, list.msgAr)
                                     intent.putExtra(Constants.EXTRA_ERROR_EN, list.msgEn)
                                     // intent.putExtra(EXTRA_ERROR, getString(R.string.branch_is_closed))
-                                    // intent.putExtra(Constants.EXTRA_BRANCH_ID, getPreference())
-                                    intent.putExtra(Constants.EXTRA_BRANCH_ID,7)
+                                     intent.putExtra(Constants.EXTRA_BRANCH_ID, getPreference())
+                                  //  intent.putExtra(Constants.EXTRA_BRANCH_ID,7)
 
                                     startActivityForResult(intent, 900)
                                 }

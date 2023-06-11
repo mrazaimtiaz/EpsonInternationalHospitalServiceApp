@@ -1,397 +1,399 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.gicproject.padaqappservice"
+3    package="com.gicproject.epsonseefservice"
 4    android:versionCode="33"
 5    android:versionName="16.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml
+8-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml
+9-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:6:5-78
-11-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:6:22-75
+11-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:6:5-78
+11-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:6:22-75
 12    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-12-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:7:5-9:47
-12-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:8:9-57
+12-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:7:5-9:47
+12-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:8:9-57
 13    <uses-permission android:name="android.permission.GET_TASKS" />
-13-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:10:5-68
-13-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:10:22-65
+13-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:10:5-68
+13-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:10:22-65
 14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> -->
-14-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:11:5-81
-14-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:11:22-78
+14-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:11:5-81
+14-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:11:22-78
 15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:12:5-81
-15-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:12:22-78
+15-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:12:5-81
+15-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:12:22-78
 16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
-16-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:13:5-81
-16-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:13:22-78
+16-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:13:5-81
+16-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:13:22-78
 17    <uses-permission android:name="android.permission.BLUETOOTH" />
-17-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:14:5-68
-17-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:14:22-65
+17-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:14:5-68
+17-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:14:22-65
 18    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
-18-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:15:5-76
-18-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:15:22-73
+18-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:15:5-76
+18-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:15:22-73
 19    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-19-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:16:5-74
-19-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:16:22-71
+19-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:16:5-74
+19-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:16:22-71
 20    <uses-permission android:name="android.permission.INTERNET" />
-20-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:17:5-67
-20-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:17:22-64
+20-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:17:5-67
+20-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:17:22-64
 21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permission will be merged into the manifest of the hosting app. -->
-21-->[com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/228eed874a274292b5d8db477514e36b/jetified-smcloudservices-1.4.1/AndroidManifest.xml:11:5-79
-21-->[com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/228eed874a274292b5d8db477514e36b/jetified-smcloudservices-1.4.1/AndroidManifest.xml:11:22-76
+21-->[com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/b980255864856e1fd2bd7e27e1d8d4d1/jetified-smcloudservices-1.4.1/AndroidManifest.xml:11:5-79
+21-->[com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/b980255864856e1fd2bd7e27e1d8d4d1/jetified-smcloudservices-1.4.1/AndroidManifest.xml:11:22-76
 22    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
 23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-23-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:8:3-74
-23-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:8:20-72
+23-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:8:3-74
+23-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:8:20-72
 24    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 26
 27    <application
-27-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:19:5-189:19
+27-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:19:5-190:19
 28        android:name="com.epson.epos2_printer.QappApplication"
-28-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:20:9-40
+28-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:20:9-40
 29        android:allowBackup="true"
-29-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:21:9-35
+29-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:21:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 30-->[androidx.core:core:1.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/1d137e31f100638d7fa0478fa9c8a03b/core-1.2.0/AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
-32        android:icon="@mipmap/ic_launcher"
-32-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:22:9-43
+32        android:icon="@drawable/androidicon"
+32-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:23:9-45
 33        android:label="@string/app_name"
-33-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:23:9-41
+33-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:24:9-41
 34        android:networkSecurityConfig="@xml/network_security_config"
-34-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:24:9-69
+34-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:25:9-69
 35        android:requestLegacyExternalStorage="true"
-35-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:25:9-52
+35-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:26:9-52
 36        android:resizeableActivity="false"
-36-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:26:9-43
-37        android:roundIcon="@mipmap/ic_launcher"
-37-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:27:9-48
+36-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:27:9-43
+37        android:roundIcon="@drawable/androidicon"
+37-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:28:9-50
 38        android:sharedUserId="android.uid.system"
-38-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:28:9-50
+38-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:29:9-50
 39        android:supportsRtl="true"
-39-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:29:9-35
+39-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:30:9-35
 40        android:testOnly="true"
-41        android:theme="@style/AppTheme" >
-41-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:30:9-40
-42        <activity
-42-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:33:9-35:77
-43            android:name="com.epson.epos2_printer.ui.ScreenSaverActivity"
-43-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:34:13-51
-44            android:configChanges="keyboardHidden|orientation|screenSize" />
-44-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:35:13-74
-45        <activity android:name="com.epson.epos2_printer.ui.IntializeSettingActivity" />
-45-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:36:9-65
-45-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:36:19-62
-46        <activity android:name="com.epson.epos2_printer.ui.MyScannerActivity" />
-46-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:37:9-58
-46-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:37:19-55
-47        <activity
-47-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:38:9-40:52
-48            android:name="com.epson.epos2_printer.ui.ManualActivity"
-48-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:39:13-46
-49            android:screenOrientation="portrait" />
-49-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:40:13-49
-50        <activity android:name="com.epson.epos2_printer.ui.SplashActivity" >
-50-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:41:9-50:20
-50-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:41:19-52
-51            <intent-filter>
-51-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:42:13-49:29
-52                <action android:name="android.intent.action.MAIN" />
-52-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:43:17-69
-52-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:43:25-66
-53                <action android:name="android.intent.action.VIEW" />
-53-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:44:17-69
-53-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:44:25-66
-54
-55                <category android:name="android.intent.category.DEFAULT" />
-55-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:46:17-76
-55-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:46:27-73
-56                <category android:name="android.intent.category.HOME" />
-56-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:47:17-73
-56-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:47:27-70
-57                <category android:name="android.intent.category.LAUNCHER" />
-57-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:48:17-77
-57-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:48:27-74
-58            </intent-filter>
-59        </activity>
-60        <activity android:name="com.epson.epos2_printer.utils.LockedActivity" />
-60-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:51:9-58
-60-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:51:19-55
-61        <activity android:name="com.epson.epos2_printer.ui.IntializeActivity" >
-61-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:52:9-70:20
-61-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:52:19-55
-62            <intent-filter>
-62-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:53:13-62:29
-63                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
-63-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:54:17-90
-63-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:54:25-87
-64                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
-64-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:55:17-93
-64-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:55:25-90
-65
-66                <!--
-67                <action android:name="android.intent.action.MAIN" />
-68
-69                <category android:name="android.intent.category.LAUNCHER" />
-70                -->
-71            </intent-filter>
-72
-73            <meta-data
-73-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:64:13-66:57
-74                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
-74-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:65:17-79
-75                android:resource="@xml/device_filter" />
-75-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:66:17-54
-76            <meta-data
-76-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:67:13-69:60
-77                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
-77-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:68:17-82
-78                android:resource="@xml/accessory_filter" />
-78-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:69:17-57
-79        </activity>
-80        <activity
-80-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:71:9-92:20
-81            android:name="com.epson.epos2_printer.ui.ServiceActivity"
-81-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:72:13-47
-82            android:configChanges="keyboardHidden|orientation|screenSize" >
-82-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:73:13-74
-83
-84            <!--
-85            <intent-filter>
-86                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
-87                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
-88                &lt;!&ndash;
-89                <action android:name="android.intent.action.MAIN" />
-90
-91                <category android:name="android.intent.category.LAUNCHER" />
-92                &ndash;&gt;
-93            </intent-filter>
-94            <meta-data
-95                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
-96                android:resource="@xml/device_filter" />
-97            <meta-data
-98                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
-99                android:resource="@xml/accessory_filter" />
-100            -->
-101        </activity>
-102        <activity
-102-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:93:9-96:40
-103            android:name="com.epson.epos2_printer.ui.ErrorActivity"
-103-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:94:13-45
-104            android:configChanges="keyboardHidden|orientation|screenSize"
-104-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:95:13-74
-105            android:noHistory="true" />
-105-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:96:13-37
-106        <activity
-106-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:97:9-99:77
-107            android:name="com.epson.epos2_printer.ui.SettingActivity"
-107-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:98:13-47
-108            android:configChanges="keyboardHidden|orientation|screenSize" />
-108-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:99:13-74
-109        <!--
-110            <activity
-111            android:name=".ui.MobileEntryActivity"
-112            android:configChanges="keyboardHidden|orientation|screenSize" />
-113        -->
-114        <activity
-114-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:103:9-105:52
-115            android:name="com.epson.epos2_printer.SettingActivity"
-115-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:104:13-44
-116            android:screenOrientation="portrait" />
-116-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:105:13-49
-117        <activity
-117-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:106:9-108:52
-118            android:name="com.epson.epos2_printer.PrinterSettingActivity"
-118-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:107:13-51
-119            android:screenOrientation="portrait" />
-119-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:108:13-49
-120        <activity
-120-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:109:9-111:52
-121            android:name="com.epson.epos2_printer.FirmwareUpdateActivity"
-121-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:110:13-51
-122            android:screenOrientation="portrait" />
-122-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:111:13-49
-123        <activity
-123-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:112:9-114:52
-124            android:name="com.epson.epos2_printer.MonitorActivity"
-124-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:113:13-44
-125            android:screenOrientation="portrait" />
-125-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:114:13-49
-126        <activity
-126-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:115:9-117:52
-127            android:name="com.epson.epos2_printer.SingleMonitorActivity"
-127-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:116:13-50
-128            android:screenOrientation="portrait" />
-128-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:117:13-49
-129        <activity
-129-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:118:9-120:52
-130            android:name="com.epson.epos2_printer.MultipleMonitorActivity"
-130-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:119:13-52
-131            android:screenOrientation="portrait" />
-131-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:120:13-49
-132        <activity
-132-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:121:9-147:20
-133            android:name="com.epson.epos2_printer.MainActivity"
-133-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:122:13-41
-134            android:label="@string/app_title"
-134-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:123:13-46
-135            android:screenOrientation="portrait" >
-135-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:124:13-49
-136
-137            <!--
-138            <intent-filter>
-139            &lt;!&ndash;    <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
-140                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />&ndash;&gt;
-141                &lt;!&ndash;
-142                <action android:name="android.intent.action.MAIN" />
-143
-144                <category android:name="android.intent.category.LAUNCHER" />
-145                &ndash;&gt;
-146            </intent-filter>
-147            -->
-148
+41        android:theme="@style/AppTheme"
+41-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:31:9-40
+42        android:usesCleartextTraffic="true" >
+42-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:22:9-44
+43        <activity
+43-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:34:9-36:77
+44            android:name="com.epson.epos2_printer.ui.ScreenSaverActivity"
+44-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:35:13-51
+45            android:configChanges="keyboardHidden|orientation|screenSize" />
+45-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:36:13-74
+46        <activity android:name="com.epson.epos2_printer.ui.IntializeSettingActivity" />
+46-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:37:9-65
+46-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:37:19-62
+47        <activity android:name="com.epson.epos2_printer.ui.MyScannerActivity" />
+47-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:38:9-58
+47-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:38:19-55
+48        <activity
+48-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:39:9-41:52
+49            android:name="com.epson.epos2_printer.ui.ManualActivity"
+49-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:40:13-46
+50            android:screenOrientation="portrait" />
+50-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:41:13-49
+51        <activity android:name="com.epson.epos2_printer.ui.SplashActivity" >
+51-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:42:9-51:20
+51-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:42:19-52
+52            <intent-filter>
+52-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:43:13-50:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:44:17-69
+53-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:44:25-66
+54                <action android:name="android.intent.action.VIEW" />
+54-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:45:17-69
+54-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:45:25-66
+55
+56                <category android:name="android.intent.category.DEFAULT" />
+56-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:47:17-76
+56-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:47:27-73
+57                <category android:name="android.intent.category.HOME" />
+57-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:48:17-73
+57-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:48:27-70
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:49:17-77
+58-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:49:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity android:name="com.epson.epos2_printer.utils.LockedActivity" />
+61-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:52:9-58
+61-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:52:19-55
+62        <activity android:name="com.epson.epos2_printer.ui.IntializeActivity" >
+62-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:53:9-71:20
+62-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:53:19-55
+63            <intent-filter>
+63-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:54:13-63:29
+64                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+64-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:55:17-90
+64-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:55:25-87
+65                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+65-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:56:17-93
+65-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:56:25-90
+66
+67                <!--
+68                <action android:name="android.intent.action.MAIN" />
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+71                -->
+72            </intent-filter>
+73
+74            <meta-data
+74-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:65:13-67:57
+75                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+75-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:66:17-79
+76                android:resource="@xml/device_filter" />
+76-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:67:17-54
+77            <meta-data
+77-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:68:13-70:60
+78                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+78-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:69:17-82
+79                android:resource="@xml/accessory_filter" />
+79-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:70:17-57
+80        </activity>
+81        <activity
+81-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:72:9-93:20
+82            android:name="com.epson.epos2_printer.ui.ServiceActivity"
+82-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:73:13-47
+83            android:configChanges="keyboardHidden|orientation|screenSize" >
+83-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:74:13-74
+84
+85            <!--
+86            <intent-filter>
+87                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+88                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+89                &lt;!&ndash;
+90                <action android:name="android.intent.action.MAIN" />
+91
+92                <category android:name="android.intent.category.LAUNCHER" />
+93                &ndash;&gt;
+94            </intent-filter>
+95            <meta-data
+96                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+97                android:resource="@xml/device_filter" />
+98            <meta-data
+99                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+100                android:resource="@xml/accessory_filter" />
+101            -->
+102        </activity>
+103        <activity
+103-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:94:9-97:40
+104            android:name="com.epson.epos2_printer.ui.ErrorActivity"
+104-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:95:13-45
+105            android:configChanges="keyboardHidden|orientation|screenSize"
+105-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:96:13-74
+106            android:noHistory="true" />
+106-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:97:13-37
+107        <activity
+107-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:98:9-100:77
+108            android:name="com.epson.epos2_printer.ui.SettingActivity"
+108-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:99:13-47
+109            android:configChanges="keyboardHidden|orientation|screenSize" />
+109-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:100:13-74
+110        <!--
+111            <activity
+112            android:name=".ui.MobileEntryActivity"
+113            android:configChanges="keyboardHidden|orientation|screenSize" />
+114        -->
+115        <activity
+115-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:104:9-106:52
+116            android:name="com.epson.epos2_printer.SettingActivity"
+116-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:105:13-44
+117            android:screenOrientation="portrait" />
+117-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:106:13-49
+118        <activity
+118-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:107:9-109:52
+119            android:name="com.epson.epos2_printer.PrinterSettingActivity"
+119-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:108:13-51
+120            android:screenOrientation="portrait" />
+120-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:109:13-49
+121        <activity
+121-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:110:9-112:52
+122            android:name="com.epson.epos2_printer.FirmwareUpdateActivity"
+122-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:111:13-51
+123            android:screenOrientation="portrait" />
+123-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:112:13-49
+124        <activity
+124-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:113:9-115:52
+125            android:name="com.epson.epos2_printer.MonitorActivity"
+125-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:114:13-44
+126            android:screenOrientation="portrait" />
+126-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:115:13-49
+127        <activity
+127-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:116:9-118:52
+128            android:name="com.epson.epos2_printer.SingleMonitorActivity"
+128-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:117:13-50
+129            android:screenOrientation="portrait" />
+129-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:118:13-49
+130        <activity
+130-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:119:9-121:52
+131            android:name="com.epson.epos2_printer.MultipleMonitorActivity"
+131-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:120:13-52
+132            android:screenOrientation="portrait" />
+132-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:121:13-49
+133        <activity
+133-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:122:9-148:20
+134            android:name="com.epson.epos2_printer.MainActivity"
+134-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:123:13-41
+135            android:label="@string/app_title"
+135-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:124:13-46
+136            android:screenOrientation="portrait" >
+136-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:125:13-49
+137
+138            <!--
+139            <intent-filter>
+140            &lt;!&ndash;    <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+141                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />&ndash;&gt;
+142                &lt;!&ndash;
+143                <action android:name="android.intent.action.MAIN" />
+144
+145                <category android:name="android.intent.category.LAUNCHER" />
+146                &ndash;&gt;
+147            </intent-filter>
+148            -->
 149
-150            <!--
-151                <meta-data
-152                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
-153                android:resource="@xml/device_filter" />
-154            <meta-data
-155                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
-156                android:resource="@xml/accessory_filter" />
-157            -->
-158        </activity>
-159        <activity
-159-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:148:9-151:49
-160            android:name="com.epson.epos2_printer.DiscoveryActivity"
-160-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:149:13-46
-161            android:configChanges="keyboardHidden|orientation|screenSize"
-161-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:150:13-74
-162            android:label="@string/app_title" />
-162-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:151:13-46
-163        <!--
-164                 <action android:name="android.intent.action.MAIN" />
-165
-166                <category android:name="android.intent.category.LAUNCHER" />
-167        -->
-168        <receiver
-168-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:157:9-172:20
-169            android:name="com.epson.epos2_printer.utils.MyDeviceAdminReceiver"
-169-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:158:13-56
-170            android:description="@string/app_name"
-170-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:159:13-51
-171            android:label="@string/app_name"
-171-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:160:13-45
-172            android:permission="android.permission.BIND_DEVICE_ADMIN" >
-172-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:161:13-70
-173            <intent-filter>
-173-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:162:13-167:29
-174                <action android:name="android.intent.action.DEVICE_ADMIN_ENABLED" />
-174-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:163:17-85
-174-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:163:25-82
-175                <action android:name="android.app.action.DEVICE_ADMIN_DISABLED" />
-175-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:164:17-83
-175-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:164:25-80
-176                <action android:name="android.intent.action.PROFILE_PROVISIONING_COMPLETE" />
-176-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:165:17-94
-176-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:165:25-91
-177                <action android:name="android.intent.action.BOOT_COMPLETED" />
-177-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:166:17-79
-177-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:166:25-76
-178            </intent-filter>
-179
-180            <meta-data
-180-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:169:13-171:65
-181                android:name="android.app.device_admin"
-181-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:170:17-56
-182                android:resource="@xml/device_admin_reciever" />
-182-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:171:17-62
-183        </receiver>
-184        <receiver
-184-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:173:9-184:20
-185            android:name="com.epson.epos2_printer.utils.yourActivityRunOnStartup"
-185-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:174:13-59
-186            android:enabled="true"
-186-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:175:13-35
-187            android:exported="true"
-187-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:176:13-36
-188            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
-188-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:177:13-75
-189            <intent-filter>
-189-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:178:13-183:29
-190                <action android:name="android.intent.action.BOOT_COMPLETED" />
-190-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:166:17-79
-190-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:166:25-76
-191                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-191-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:180:17-82
-191-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:180:25-79
-192
-193                <category android:name="android.intent.category.DEFAULT" />
-193-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:46:17-76
-193-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:46:27-73
-194            </intent-filter>
-195        </receiver>
-196
-197        <service
-197-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:186:9-188:40
-198            android:name="com.epson.epos2_printer.utils.KioskService"
-198-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:187:13-47
-199            android:exported="false" />
-199-->/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/src/main/AndroidManifest.xml:188:13-37
-200
-201        <activity
-201-->[com.jakewharton:process-phoenix:2.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/b4693f1aaed3d690a0509fd90280a836/jetified-process-phoenix-2.0.0/AndroidManifest.xml:8:9-11:75
-202            android:name="com.jakewharton.processphoenix.ProcessPhoenix"
-202-->[com.jakewharton:process-phoenix:2.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/b4693f1aaed3d690a0509fd90280a836/jetified-process-phoenix-2.0.0/AndroidManifest.xml:9:13-73
-203            android:process=":phoenix"
-203-->[com.jakewharton:process-phoenix:2.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/b4693f1aaed3d690a0509fd90280a836/jetified-process-phoenix-2.0.0/AndroidManifest.xml:10:13-39
-204            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-204-->[com.jakewharton:process-phoenix:2.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/b4693f1aaed3d690a0509fd90280a836/jetified-process-phoenix-2.0.0/AndroidManifest.xml:11:13-72
-205
-206        <service
-206-->[androidx.room:room-runtime:2.2.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/bceac49b2588d9074850b088dc9cc74e/room-runtime-2.2.1/AndroidManifest.xml:25:9-27:40
-207            android:name="androidx.room.MultiInstanceInvalidationService"
-207-->[androidx.room:room-runtime:2.2.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/bceac49b2588d9074850b088dc9cc74e/room-runtime-2.2.1/AndroidManifest.xml:26:13-74
-208            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
-208-->[androidx.room:room-runtime:2.2.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/bceac49b2588d9074850b088dc9cc74e/room-runtime-2.2.1/AndroidManifest.xml:27:13-37
-209        <activity
-209-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:12:5-271
-210            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
-210-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:12:15-102
-211            android:enabled="false"
-211-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:12:103-126
-212            android:exported="false"
-212-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:12:127-151
-213            android:launchMode="singleInstance"
-213-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:12:204-239
-214            android:process=":playcore_missing_splits_activity"
-214-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:12:152-203
-215            android:stateNotNeeded="true" />
-215-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:12:240-269
-216        <activity
-216-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:13:5-226
-217            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-217-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:13:15-95
-218            android:enabled="false"
-218-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:13:96-119
-219            android:exported="false"
-219-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:13:120-144
-220            android:stateNotNeeded="true"
-220-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:13:145-174
-221            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
-221-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:13:175-224
-222        <service
-222-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:16:5-145
-223            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
-223-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:16:14-95
-224            android:enabled="false"
-224-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:16:96-119
-225            android:exported="true" />
-225-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff757fb47b697d22f0f34d2863b394e1/jetified-core-1.8.0/AndroidManifest.xml:16:120-143
-226    </application>
-227
-228</manifest>
+150
+151            <!--
+152                <meta-data
+153                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+154                android:resource="@xml/device_filter" />
+155            <meta-data
+156                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+157                android:resource="@xml/accessory_filter" />
+158            -->
+159        </activity>
+160        <activity
+160-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:149:9-152:49
+161            android:name="com.epson.epos2_printer.DiscoveryActivity"
+161-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:150:13-46
+162            android:configChanges="keyboardHidden|orientation|screenSize"
+162-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:151:13-74
+163            android:label="@string/app_title" />
+163-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:152:13-46
+164        <!--
+165                 <action android:name="android.intent.action.MAIN" />
+166
+167                <category android:name="android.intent.category.LAUNCHER" />
+168        -->
+169        <receiver
+169-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:158:9-173:20
+170            android:name="com.epson.epos2_printer.utils.MyDeviceAdminReceiver"
+170-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:159:13-56
+171            android:description="@string/app_name"
+171-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:160:13-51
+172            android:label="@string/app_name"
+172-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:161:13-45
+173            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+173-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:162:13-70
+174            <intent-filter>
+174-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:163:13-168:29
+175                <action android:name="android.intent.action.DEVICE_ADMIN_ENABLED" />
+175-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:164:17-85
+175-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:164:25-82
+176                <action android:name="android.app.action.DEVICE_ADMIN_DISABLED" />
+176-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:165:17-83
+176-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:165:25-80
+177                <action android:name="android.intent.action.PROFILE_PROVISIONING_COMPLETE" />
+177-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:166:17-94
+177-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:166:25-91
+178                <action android:name="android.intent.action.BOOT_COMPLETED" />
+178-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:167:17-79
+178-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:167:25-76
+179            </intent-filter>
+180
+181            <meta-data
+181-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:170:13-172:65
+182                android:name="android.app.device_admin"
+182-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:171:17-56
+183                android:resource="@xml/device_admin_reciever" />
+183-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:172:17-62
+184        </receiver>
+185        <receiver
+185-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:174:9-185:20
+186            android:name="com.epson.epos2_printer.utils.yourActivityRunOnStartup"
+186-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:175:13-59
+187            android:enabled="true"
+187-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:176:13-35
+188            android:exported="true"
+188-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:177:13-36
+189            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+189-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:178:13-75
+190            <intent-filter>
+190-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:179:13-184:29
+191                <action android:name="android.intent.action.BOOT_COMPLETED" />
+191-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:167:17-79
+191-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:167:25-76
+192                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+192-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:181:17-82
+192-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:181:25-79
+193
+194                <category android:name="android.intent.category.DEFAULT" />
+194-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:47:17-76
+194-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:47:27-73
+195            </intent-filter>
+196        </receiver>
+197
+198        <service
+198-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:187:9-189:40
+199            android:name="com.epson.epos2_printer.utils.KioskService"
+199-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:188:13-47
+200            android:exported="false" />
+200-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:189:13-37
+201
+202        <activity
+202-->[com.jakewharton:process-phoenix:2.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/b4693f1aaed3d690a0509fd90280a836/jetified-process-phoenix-2.0.0/AndroidManifest.xml:8:9-11:75
+203            android:name="com.jakewharton.processphoenix.ProcessPhoenix"
+203-->[com.jakewharton:process-phoenix:2.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/b4693f1aaed3d690a0509fd90280a836/jetified-process-phoenix-2.0.0/AndroidManifest.xml:9:13-73
+204            android:process=":phoenix"
+204-->[com.jakewharton:process-phoenix:2.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/b4693f1aaed3d690a0509fd90280a836/jetified-process-phoenix-2.0.0/AndroidManifest.xml:10:13-39
+205            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+205-->[com.jakewharton:process-phoenix:2.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/b4693f1aaed3d690a0509fd90280a836/jetified-process-phoenix-2.0.0/AndroidManifest.xml:11:13-72
+206
+207        <service
+207-->[androidx.room:room-runtime:2.2.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/bceac49b2588d9074850b088dc9cc74e/room-runtime-2.2.1/AndroidManifest.xml:25:9-27:40
+208            android:name="androidx.room.MultiInstanceInvalidationService"
+208-->[androidx.room:room-runtime:2.2.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/bceac49b2588d9074850b088dc9cc74e/room-runtime-2.2.1/AndroidManifest.xml:26:13-74
+209            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+209-->[androidx.room:room-runtime:2.2.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/bceac49b2588d9074850b088dc9cc74e/room-runtime-2.2.1/AndroidManifest.xml:27:13-37
+210        <activity
+210-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:5-271
+211            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+211-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:15-102
+212            android:enabled="false"
+212-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:103-126
+213            android:exported="false"
+213-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:127-151
+214            android:launchMode="singleInstance"
+214-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:204-239
+215            android:process=":playcore_missing_splits_activity"
+215-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:152-203
+216            android:stateNotNeeded="true" />
+216-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:240-269
+217        <activity
+217-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:5-226
+218            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+218-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:15-95
+219            android:enabled="false"
+219-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:96-119
+220            android:exported="false"
+220-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:120-144
+221            android:stateNotNeeded="true"
+221-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:145-174
+222            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+222-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:175-224
+223        <service
+223-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:16:5-145
+224            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+224-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:16:14-95
+225            android:enabled="false"
+225-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:16:96-119
+226            android:exported="true" />
+226-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:16:120-143
+227    </application>
+228
+229</manifest>

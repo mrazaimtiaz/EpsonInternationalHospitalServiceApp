@@ -36,7 +36,8 @@ class QRepository {
                               AppointmentCode: Int,
                               branchId: Int,
                               QbranchID: Int) =
-        RetrofitInstance.api.getBookTicket(serviceID= serviceID,IsHandicap= IsHandicap,isVip= isVip,languageID= languageID,AppointmentCode= AppointmentCode,branchId= branchId,)
+       // RetrofitInstance.api.getBookTicket(mobileNumber= "",serviceID= serviceID,IsHandicap= IsHandicap,isVip= isVip,languageID= languageID,AppointmentCode= AppointmentCode,branchId= branchId,QbranchID=branchId)
+        RetrofitInstance.api.getBookTicketNew(serviceID= serviceID,IsHandicap= IsHandicap,isVip= isVip,languageID= languageID,AppointmentCode= AppointmentCode,branchId= branchId,)
 
     suspend fun getTicket(QueueID: Int, language: Int) =
             RetrofitInstance.api.getTicket(QueueID, language)
@@ -76,7 +77,9 @@ class QRepository {
                               AppointmentCode: Int,
                               branchId: Int,
                               QbranchID: Int) =
-        RetrofitInstanceLocal.api.getBookTicket(serviceID= serviceID,IsHandicap= IsHandicap,isVip= isVip,languageID= languageID,AppointmentCode= AppointmentCode,branchId= branchId,)
+      //  RetrofitInstanceLocal.api.getBookTicket(serviceID= serviceID,IsHandicap= IsHandicap,isVip= isVip,languageID= languageID,AppointmentCode= AppointmentCode,branchId= branchId,)
+    RetrofitInstanceLocal.api.getBookTicket(mobileNumber= "",serviceID= serviceID,IsHandicap= IsHandicap,isVip= isVip,languageID= languageID,AppointmentCode= AppointmentCode,branchId= branchId,QbranchID=branchId)
+
 
 
     suspend fun getTicketLocal(QueueID: Int, language: Int) =

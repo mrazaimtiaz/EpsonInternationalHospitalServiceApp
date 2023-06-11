@@ -24,6 +24,7 @@ import android.net.Uri
 import android.os.Build
 import android.provider.Settings
 import androidx.annotation.RequiresApi
+import com.epson.epos2_printer.led.LampsUtil
 import com.epson.epos2_printer.viewmodel.BackEndViewModel
 import com.epson.epos2_printer.viewmodel.BackEndViewModelProviderFactory
 import kotlinx.android.synthetic.main.activity_mobile_entry.*
@@ -46,6 +47,14 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
 
         Log.d("TAG", "onCreate: called 1")
+
+
+        try{
+
+            var lampUtil: LampsUtil = LampsUtil()
+        }catch (e: java.lang.Exception){
+
+        }
 
 
 

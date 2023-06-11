@@ -3,6 +3,7 @@ package com.epson.epos2_printer.models
 
 data class Services(
         var Services_Name_EN: String?,
+        var Waiting_Customer: String?,
         var Services_Name_AR: String?,
         var Services_PK_ID: Int?,
         var Services_TicketDesigner_FK_ID: Int?,

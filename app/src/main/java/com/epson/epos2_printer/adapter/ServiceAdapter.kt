@@ -1,5 +1,6 @@
 package com.epson.epos2_printer.adapter
 
+import android.annotation.SuppressLint
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Color
@@ -53,6 +54,7 @@ class ServiceAdapter : RecyclerView.Adapter<ServiceAdapter.ListViewHolder>() {
         return differ.currentList.size
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: ServiceAdapter.ListViewHolder, position: Int) {
         val services = differ.currentList[position]
 
@@ -61,6 +63,8 @@ class ServiceAdapter : RecyclerView.Adapter<ServiceAdapter.ListViewHolder>() {
                 mServiceBtn.text = services.Services_Name_AR
             else
                 mServiceBtn.text = services.Services_Name_EN
+
+            mServiceBtn.text = services.Services_Name_AR + "\n\n" + services.Services_Name_EN
             try {
                 mServiceBtn.setBackgroundColor(Color.parseColor("#${services.Services_Color}"))
             } catch (e: Exception) {

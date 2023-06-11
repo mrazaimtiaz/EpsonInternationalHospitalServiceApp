@@ -1,1 +1,1 @@
-com.gicproject.padaqappservice
+com.gicproject.epsonseefservice

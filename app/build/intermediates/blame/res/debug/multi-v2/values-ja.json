@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
+            "outputFile": "/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
             "map": [
                 {
                     "source": "/Users/gic/.gradle/caches/transforms-2/files-2.1/1816ed02278f0bb9d8b2bd6486a463fc/appcompat-1.1.0/res/values-ja/values-ja.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/gic/.gradle/caches/transforms-2/files-2.1/228eed874a274292b5d8db477514e36b/jetified-smcloudservices-1.4.1/res/values-ja/values-ja.xml",
+                    "source": "/Users/gic/.gradle/caches/transforms-2/files-2.1/b980255864856e1fd2bd7e27e1d8d4d1/jetified-smcloudservices-1.4.1/res/values-ja/values-ja.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

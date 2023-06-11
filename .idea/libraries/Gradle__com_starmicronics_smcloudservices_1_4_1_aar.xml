@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.starmicronics:smcloudservices:1.4.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/228eed874a274292b5d8db477514e36b/jetified-smcloudservices-1.4.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/228eed874a274292b5d8db477514e36b/jetified-smcloudservices-1.4.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/228eed874a274292b5d8db477514e36b/jetified-smcloudservices-1.4.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b980255864856e1fd2bd7e27e1d8d4d1/jetified-smcloudservices-1.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b980255864856e1fd2bd7e27e1d8d4d1/jetified-smcloudservices-1.4.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b980255864856e1fd2bd7e27e1d8d4d1/jetified-smcloudservices-1.4.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.starmicronics/smcloudservices/1.4.1/e0c4715b98da99dfa46746319e27140bda99c48f/smcloudservices-1.4.1-javadoc.jar!/" />

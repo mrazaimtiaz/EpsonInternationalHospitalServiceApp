@@ -9,6 +9,7 @@ import android.net.Uri
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.Settings
 import android.util.Log
 import androidx.annotation.NonNull
 import androidx.core.app.ActivityCompat
@@ -46,6 +47,12 @@ class IntializeSettingActivity : AppCompatActivity() {
         mRestart.setOnClickListener {
             ProcessPhoenix.triggerRebirth(this);
         }
+
+        mOpenDeviceSetting.setOnClickListener {
+            val intent = Intent(Settings.ACTION_SETTINGS)
+            startActivity(intent)
+        }
+
         mConfigurePrinter.setOnClickListener {
             val intent = Intent(
                     this, DiscoveryActivity::class.java

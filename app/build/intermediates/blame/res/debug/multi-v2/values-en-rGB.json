@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/Users/gic/.gradle/caches/transforms-2/files-2.1/c65b0077980178e541bbe77bd8a926c4/navigation-ui-2.2.2/res/values-en-rGB/values-en-rGB.xml",

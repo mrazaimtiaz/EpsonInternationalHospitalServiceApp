@@ -13,6 +13,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.epson.epos2_printer.R
 import com.epson.epos2_printer.api.RetrofitInstance
 import com.epson.epos2_printer.api.RetrofitInstanceLocal
+import com.epson.epos2_printer.led.LampsUtil
 import com.epson.epos2_printer.repository.QRepository
 import com.epson.epos2_printer.viewmodel.QViewModelProviderFactory
 import com.shashank.sony.fancytoastlib.FancyToast
@@ -45,6 +46,15 @@ class ErrorActivity : AppCompatActivity() {
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
         setContentView(R.layout.activity_error)
+
+        try{
+
+            var lampUtil: LampsUtil = LampsUtil()
+        }catch (e: java.lang.Exception){
+
+        }
+        redLamps()
+      //  turnRedLight(this)
 
         Log.d("TAG", "error handling 1 ")
 
@@ -101,7 +111,7 @@ class ErrorActivity : AppCompatActivity() {
         Log.d("TAG", "onCreate: timerstarted5")
 
         //screensavercode
-       startTimer()
+      // startTimer()
     }
     fun cancelTimer(){
         try {
@@ -147,7 +157,7 @@ class ErrorActivity : AppCompatActivity() {
         cancelTimer()
         Log.d("TAG", "onCreate: timerstarted6")
         //screensavercode
-        startTimer()
+      //  startTimer()
 
 
         // call super
@@ -171,10 +181,10 @@ class ErrorActivity : AppCompatActivity() {
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         Log.d("TAG", "onCreate: timerstarted7")
-
+        redLamps()
         //screensavercode
         cancelTimer()
-        startTimer()
+        //startTimer()
         try {
             if (value == getString(R.string.internet_error_admin)) {
                 CoroutineScope(Dispatchers.Default).launch {
@@ -192,7 +202,7 @@ class ErrorActivity : AppCompatActivity() {
             Log.d("TAG", "onCreate: timerstarted5")
 
             //screensavercode
-            startTimer()
+           // startTimer()
 
             if (branchId != BRANCH_DEFAULT_VALUE){
                 try {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/gic/mrazaimtiaz/EpsonPadaQServiceApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
                     "source": "/Users/gic/.gradle/caches/transforms-2/files-2.1/1d137e31f100638d7fa0478fa9c8a03b/core-1.2.0/res/values-zh-rCN/values-zh-rCN.xml",
