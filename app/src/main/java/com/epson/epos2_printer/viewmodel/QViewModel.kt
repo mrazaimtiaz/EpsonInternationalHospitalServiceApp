@@ -60,7 +60,7 @@ class QViewModel(
     }
 
     fun isBranchOpen(branchID: Int) = viewModelScope.launch {
-        safeGetIsBranchOpen(branchID)
+     //   safeGetIsBranchOpen(branchID)
     }
 
     /*suspend fun isBranchOpenForErrorActivity(branchID: Int) {
@@ -90,11 +90,11 @@ class QViewModel(
 
 
      fun sendLog(branchID: Int, errorMsg: String) = viewModelScope.launch {
-         safeSendLog(branchID, errorMsg)
+      //   safeSendLog(branchID, errorMsg)
      }
 
     fun sendTabletStatus(branchID: Int, type: String,status: String) = viewModelScope.launch {
-        safeTabletStatus(branchID, type,status)
+      //  safeTabletStatus(branchID, type,status)
     }
 
 
@@ -117,6 +117,10 @@ class QViewModel(
                 try {
                     val response = qRepository.getAllBranches()
                     branches.postValue(handleBranchesResponse(response))
+                    //testing below
+                    /*branches.postValue(Resource.Success(
+                        listOf<Branches>(Branches("test","test",2 ,true))
+                              ))*/
                 } catch (t: Throwable) {
                     when (t) {
                         is Exception -> branches.postValue(Resource.Error(mContext.getString(R.string.server_error_admin)))
@@ -216,6 +220,13 @@ class QViewModel(
                 try {
                     val response = qRepository.getServices(branchID)
                     getServices.postValue(handleGetServicesResponse(response))
+                    //testing below
+                    /*getServices.postValue(Resource.Success(  listOf<Services>(
+                        Services("test","test",1,1,"","",true,1,1,1,"","","","","22","","",""),
+                        Services("test","test",1,1,"","",true,1,1,1,"","","","","22","","",""),
+                        Services("test","test",1,1,"","",true,1,1,1,"","","","","22","","",""),
+
+                        )))*/
                 } catch (t: Throwable) {
                     when (t) {
                         is Exception -> getServices.postValue(Resource.Error(mContext.getString(R.string.server_error_admin)))

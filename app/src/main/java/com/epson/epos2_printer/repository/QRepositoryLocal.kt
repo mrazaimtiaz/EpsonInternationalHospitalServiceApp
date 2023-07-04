@@ -17,16 +17,16 @@ class QRepositoryLocal {
     suspend fun isBranchOpen(branchID: Int) =
             RetrofitInstanceLocal.api.isBranchOpen(branchID)
 
-    suspend fun getServices(branchID: Int) =
+ /*   suspend fun getServices(branchID: Int) =
             RetrofitInstanceLocal.api.getServices(branchID)
+*/
 
-
-    suspend fun getBookTicket(mobileNumber: String, serviceID: Int, IsHandicap: Boolean, isVip: Boolean, languageID: Int,
+ /*   suspend fun getBookTicket(mobileNumber: String, serviceID: Int, IsHandicap: Boolean, isVip: Boolean, languageID: Int,
                               AppointmentCode: Int,
                               branchId: Int,
                               QbranchID: Int) =
             RetrofitInstanceLocal.api.getBookTicket(mobileNumber=mobileNumber,serviceID= serviceID,IsHandicap= IsHandicap,isVip= isVip,languageID= languageID,AppointmentCode= AppointmentCode,branchId= branchId,QbranchID=QbranchID)
-
+*/
     suspend fun getTicket(QueueID: Int, language: Int) =
             RetrofitInstanceLocal.api.getTicket(QueueID, language)
 

@@ -95,19 +95,28 @@ class ServiceAdapter : RecyclerView.Adapter<ServiceAdapter.ListViewHolder>() {
             }
             if (services.Services_Logo != null && services.Services_Logo!!.isNotEmpty()) {
                 //  UniversalImageLoader.setImage(Uri.parse(services.Services_Logo), mIconService, null, "", context)
-                CoroutineScope(Dispatchers.IO).launch {
-                    var bitmap = convertBase64ToBitmap(services.Services_Logo!!)
-                    withContext(Dispatchers.Main) {
-                        try {
-                            mIconService.setImageBitmap(bitmap)
-                        } catch (e: Exception) {
-                            e.printStackTrace()
+                try{
+                    CoroutineScope(Dispatchers.IO).launch {
+                        var bitmap = convertBase64ToBitmap(services.Services_Logo!!)
+                        withContext(Dispatchers.Main) {
+                            try {
+                                mIconService.setImageBitmap(bitmap)
+                            } catch (e: Exception) {
+                                e.printStackTrace()
+                            }
                         }
                     }
+                }catch (e: java.lang.Exception){
+
                 }
+
             }
 
-            mServiceBtn.textSize = services.Services_FontSize?.toFloat() ?: 18f
+            waitingCustomerCount.text = services.Services_FontSize
+
+            mServiceBtn.textSize =  21f
+
+            //mServiceBtn.textSize = services.Services_FontSize?.toFloat() ?: 18f
 
             mServiceBtn.setOnClickListener { view ->
                 onItemClickListener?.let { it(services, view) }

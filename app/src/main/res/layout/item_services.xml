@@ -23,14 +23,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/mIconService"
-            android:layout_width="@dimen/_150sdp"
-            android:layout_height="@dimen/_50sdp" />
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_85sdp" />
 
         <TextView
             android:id="@+id/waitingCustomer"
             app:layout_constraintStart_toStartOf="@id/mServiceBtn"
             android:text="Waiting Customer:"
-            android:textSize="@dimen/_6sdp"
+            android:textSize="@dimen/_9sdp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/mServiceBtn" />
@@ -42,8 +42,8 @@
             app:layout_constraintEnd_toEndOf="@+id/mServiceBtn"
 
 
-            android:text="33"
-            android:textSize="@dimen/_7sdp"
+            android:text=""
+            android:textSize="@dimen/_10sdp"
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
             android:id="@+id/waitingCustomerAr"
             app:layout_constraintEnd_toEndOf="@id/mServiceBtn"
             android:text="العميل المنتظر:"
-            android:textSize="@dimen/_6sdp"
+            android:textSize="@dimen/_10sdp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/mServiceBtn" />

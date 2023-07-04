@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.CountDownTimer
 import android.util.Log
 import android.view.*
+import android_serialport_api.LedControlUtil
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -40,6 +41,9 @@ class ErrorActivity : AppCompatActivity() {
 
     var value: String? = ""
     var valueEn: String? = ""
+
+    var  ledControlUtil: LedControlUtil =   LedControlUtil()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         requestWindowFeature(Window.FEATURE_NO_TITLE)
@@ -47,13 +51,14 @@ class ErrorActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_error)
 
+
+
         try{
 
-            var lampUtil: LampsUtil = LampsUtil()
+            ledControlUtil.AllRedOn();
         }catch (e: java.lang.Exception){
 
         }
-        redLamps()
       //  turnRedLight(this)
 
         Log.d("TAG", "error handling 1 ")
@@ -113,7 +118,7 @@ class ErrorActivity : AppCompatActivity() {
         //screensavercode
       // startTimer()
     }
-    fun cancelTimer(){
+ /*   fun cancelTimer(){
         try {
             CoroutineScope(Dispatchers.IO).launch {
                 timer.cancel()
@@ -133,9 +138,9 @@ class ErrorActivity : AppCompatActivity() {
 
         }
 
-    }
+    }*/
 //screensavercode
-    val timer = object: CountDownTimer(Constants.DELAY_SCREENSAVER, 1) {
+  /*  val timer = object: CountDownTimer(Constants.DELAY_SCREENSAVER, 1) {
         override fun onTick(millisUntilFinished: Long) {}
 
         override fun onFinish() {
@@ -148,10 +153,10 @@ class ErrorActivity : AppCompatActivity() {
             // startActivity(intent)
 
         }
-    }
+    }*/
 
 //screensavercode
-    override fun dispatchTouchEvent(ev: MotionEvent): Boolean {
+   /* override fun dispatchTouchEvent(ev: MotionEvent): Boolean {
         // dismiss shown snackbar if user tapped anywhere outside snackbar
 
         cancelTimer()
@@ -162,7 +167,7 @@ class ErrorActivity : AppCompatActivity() {
 
         // call super
         return super.dispatchTouchEvent(ev)
-    }
+    }*/
 
 
     override fun onKeyDown(keyCode: Int, event: KeyEvent): Boolean {
@@ -181,9 +186,15 @@ class ErrorActivity : AppCompatActivity() {
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         Log.d("TAG", "onCreate: timerstarted7")
-        redLamps()
+
+        try{
+
+            ledControlUtil.AllRedOn();
+        }catch (e: java.lang.Exception){
+
+        }
         //screensavercode
-        cancelTimer()
+      //  cancelTimer()
         //startTimer()
         try {
             if (value == getString(R.string.internet_error_admin)) {
@@ -222,7 +233,8 @@ class ErrorActivity : AppCompatActivity() {
     }
 
     override fun onDestroy() {
-        cancelTimer()
+        //screensavercode
+        //cancelTimer()
         super.onDestroy()
     }
 
@@ -288,7 +300,7 @@ class ErrorActivity : AppCompatActivity() {
                                 FancyToast.INFO, false
                         ).show()
                         //screensavercode
-                       cancelTimer()
+                       //cancelTimer()
                         val intent = Intent(
                                 this, IntializeSettingActivity::class.java
                         )
@@ -311,7 +323,7 @@ class ErrorActivity : AppCompatActivity() {
                                 FancyToast.INFO, false
                         ).show()
                         //screensavercode
-                       cancelTimer()
+                     //  cancelTimer()
                         val intent = Intent(
                                 this, IntializeSettingActivity::class.java
                         )
@@ -323,80 +335,8 @@ class ErrorActivity : AppCompatActivity() {
             true
         }
         mBack.setOnClickListener {
-            if (branchId != BRANCH_DEFAULT_VALUE) {
-                CoroutineScope(Dispatchers.IO).launch {
-                    try {
-                        if (getServerPreference()) {
-                            val value = RetrofitInstanceLocal.api.isBranchOpen(branchId)
+            intentToMain()
 
-                            if (value.isSuccessful) {
-                                if( value.body()?.get(0)?.IsOnBreak == null){
-                                    value.body()?.get(0)?.IsOnBreak = false
-                                }
-                                if (value.body()?.get(0)?.IsOpen!! && !value.body()?.get(0)?.IsOnBreak!!) {
-                                    withContext(Dispatchers.Main) {
-                                        try{
-                                            intentToMain()
-                                        } catch (e: Exception) {
-                                            Log.d("TAG", "onResume: Exception 104 ")
-                                            e.printStackTrace()
-                                        }
-                                    }
-                                } else {
-                                    withContext(Dispatchers.Main) {
-                                        if (Locale.getDefault().displayLanguage != Constants.DISPLAY_LNG_ENGLISH) {
-                                            showToastInfo(value.body()?.get(0)?.msgAr.toString())
-                                        }else{
-                                            showToastInfo(value.body()?.get(0)?.msgEn.toString())
-                                        }
-                                    }
-                                }
-                            } else {
-                                showToastInfo("Some thing Wrong From Server")
-                            }
-                        }else{
-                            val value = RetrofitInstance.api.isBranchOpen(branchId)
-
-                            if (value.isSuccessful) {
-                                if( value.body()?.get(0)?.IsOnBreak == null){
-                                    value.body()?.get(0)?.IsOnBreak = false
-                                }
-                                if (value.body()?.get(0)?.IsOpen!!  && !value.body()?.get(0)?.IsOnBreak!!) {
-                                    withContext(Dispatchers.Main) {
-                                        try{
-                                            intentToMain()
-                                        } catch (e: Exception) {
-                                            Log.d("TAG", "onResume: Exception 104 ")
-                                            e.printStackTrace()
-                                        }
-                                    }
-                                } else {
-                                    withContext(Dispatchers.Main) {
-                                        if (Locale.getDefault().displayLanguage != Constants.DISPLAY_LNG_ENGLISH) {
-                                            showToastInfo(value.body()?.get(0)?.msgAr.toString())
-                                        }else{
-                                            showToastInfo(value.body()?.get(0)?.msgEn.toString())
-                                        }
-                                    }
-                                }
-                            } else {
-                                showToastInfo("Some thing Wrong From Server")
-                            }
-                        }
-
-                    } catch (e: Exception) {
-                        Log.d("TAG", "onResume: Exception 19 ")
-                        e.printStackTrace()
-                    }
-                }
-
-            } else{
-                Log.d("TAG", "clickListener: called")
-                //screensavercode
-                cancelTimer()
-                setResult(Activity.RESULT_OK)
-                finish()
-            }
 
         }
 
@@ -493,7 +433,7 @@ class ErrorActivity : AppCompatActivity() {
                 withContext(Dispatchers.Main) {
                     Log.d("TAG", "checkConnection: onActivityResult: called ")
                     //screensavercode
-                    cancelTimer()
+                 //   cancelTimer()
                     setResult(Activity.RESULT_OK)
                     finish()
                 }
@@ -521,7 +461,7 @@ class ErrorActivity : AppCompatActivity() {
 
     private fun intentToMain() {
         //screensavercode
-        cancelTimer()
+       // cancelTimer()
         val intent = Intent(
                 this, SplashActivity::class.java
         )

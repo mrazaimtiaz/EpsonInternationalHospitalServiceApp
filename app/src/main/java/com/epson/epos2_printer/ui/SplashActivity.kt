@@ -49,12 +49,6 @@ class SplashActivity : AppCompatActivity() {
         Log.d("TAG", "onCreate: called 1")
 
 
-        try{
-
-            var lampUtil: LampsUtil = LampsUtil()
-        }catch (e: java.lang.Exception){
-
-        }
 
 
 
@@ -89,14 +83,14 @@ class SplashActivity : AppCompatActivity() {
         setObserver()
         val branchId = getPreference()
 
-
-        if (branchId != Constants.BRANCH_DEFAULT_VALUE)
+        intentMain()
+    /*    if (branchId != Constants.BRANCH_DEFAULT_VALUE)
             viewModel.isBranchOpen(branchID = branchId)
         else {
          //   showToastInfo(getString(R.string.choose_a_branch_admin))
             intentMain()
         }
-
+*/
 
      //   updateBoolPreference(true)
 

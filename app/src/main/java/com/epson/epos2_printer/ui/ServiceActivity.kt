@@ -14,6 +14,7 @@ import android.os.*
 import android.util.Base64
 import android.util.Log
 import android.view.*
+import android_serialport_api.LedControlUtil
 import android_serialport_api.SerialPort
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
@@ -139,6 +140,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
     }
 */
 
+    var  ledControlUtil: LedControlUtil=   LedControlUtil()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val size = Point()
@@ -193,13 +195,14 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
         try{
 
-            var lampUtil: LampsUtil = LampsUtil()
+            ledControlUtil.AllGreenOn();
         }catch (e: java.lang.Exception){
 
         }
 
 
-        greenLamps()
+
+    //    greenLamps()
 
      //   turnGreenLight(this)
         observer()
@@ -300,7 +303,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
 
 //screensavercode
-    val timer = object: CountDownTimer(Constants.DELAY_SCREENSAVER, 1000) {
+/*    val timer = object: CountDownTimer(Constants.DELAY_SCREENSAVER, 1000) {
         override fun onTick(millisUntilFinished: Long) {}
 
         override fun onFinish() {
@@ -316,9 +319,10 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
             // startActivity(intent)
 
         }
-    }
+    }*/
 
 
+/*
     private fun cancelTimer() {
         try {
             CoroutineScope(Dispatchers.IO).launch {
@@ -339,11 +343,12 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
         }
     }
+*/
 
         override fun dispatchTouchEvent(ev: MotionEvent): Boolean {
         // dismiss shown snackbar if user tapped anywhere outside snackbar
             //screensavercode
-            cancelTimer()
+         //   cancelTimer()
             //screensavercode
            // startTimer()
 
@@ -408,7 +413,8 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
     override fun onDestroy() {
       //  finalizeObject()
-        cancelTimer()
+        //screensavercode
+        //cancelTimer()
         super.onDestroy()
         while (true) {
             try {
@@ -454,10 +460,21 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        greenLamps()
+        try{
+
+            Log.d("TAG", "onActivityResult: on result green")
+            var  ledControlUtil: LedControlUtil=   LedControlUtil()
+            Log.d("TAG", "onActivityResult: on result green1")
+
+
+            ledControlUtil.AllGreenOn();
+            Log.d("TAG", "onActivityResult: on result green12")
+        }catch (e: java.lang.Exception){
+
+        }
       //  turnGreenLight(this)
         //screensavercode
-        cancelTimer()
+       // cancelTimer()
        // startTimer()
         try {
             if (branchId != BRANCH_DEFAULT_VALUE) {
@@ -564,7 +581,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
                                  this, SettingActivity::class.java
                          )*/
                         ////screensavercode
-                        cancelTimer()
+                     //   cancelTimer()
 
                         val intent = Intent(
                             this, IntializeSettingActivity::class.java
@@ -594,7 +611,12 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
         serviceAdapter.setOnItemClickListener { services, view ->
 
 
-            blueLamps()
+            try{
+
+                ledControlUtil.AllWhiteOn();
+            }catch (e: java.lang.Exception){
+
+            }
            // turnWhiteLight(this)
             showProgress()
             if (checkedNumber) {
@@ -639,10 +661,10 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
                                         Log.d("TAG", "observer: called 1")
                                         list.Services_PK_ID?.let {
                                             if (getServerPreference()) {
-                                                val value = RetrofitInstanceLocal.api.getWorkingHourService(branchId, it)
-
-                                                Log.d("TAG", "observer: called 1 ${value.isSuccessful}")
-                                                if (value.isSuccessful) {
+                                              //  val value = RetrofitInstanceLocal.api.getWorkingHourService(branchId, it)
+                                                serviceList.add(list)
+                                               // Log.d("TAG", "observer: called 1 ${value.isSuccessful}")
+                                              /*  if (value.isSuccessful) {
                                                     val data: List<IsService>? = value.body()
                                                     Log.d("TAG", "observer: called 2 $data")
 
@@ -654,11 +676,11 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
                                                             }
                                                         }
                                                     }
-                                                }
+                                                }*/
                                             } else {
-                                                val value = RetrofitInstance.api.getWorkingHourService(branchId, it)
-
-                                                Log.d("TAG", "observer: called 1 ${value.isSuccessful}")
+                                             //   val value = RetrofitInstance.api.getWorkingHourService(branchId, it)
+                                                serviceList.add(list)
+                                               /* Log.d("TAG", "observer: called 1 ${value.isSuccessful}")
                                                 if (value.isSuccessful) {
                                                     val data: List<IsService>? = value.body()
                                                     Log.d("TAG", "observer: called 2 $data")
@@ -671,7 +693,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
                                                             }
                                                         }
                                                     }
-                                                }
+                                                }*/
                                             }
 
                                         }
@@ -773,7 +795,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
                                     } else {
                                         try {
                                             //screensavercode
-                                            cancelTimer()
+                                           // cancelTimer()
                                             val intent = Intent(
                                                     this, ErrorActivity::class.java
                                             )
@@ -1007,7 +1029,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
     private fun setIntentError(message: String) {
         try {
             //screensavercode
-            cancelTimer()
+            //cancelTimer()
             val intent = Intent(
                     this, ErrorActivity::class.java
             )
@@ -1273,7 +1295,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
         withContext(Dispatchers.Main) {
             Log.d("TAG", "printData: called 1 finish")
             //screensavercode
-            timer.cancel()
+            //timer.cancel()
             val intent = Intent(
                 mContext, ServiceActivity::class.java
             )
@@ -1379,7 +1401,7 @@ class ServiceActivity : AppCompatActivity(), ReceiveListener,StatusChangeListene
 
     private fun intentToMain() {
         //screensavercode
-        timer.cancel()
+       // timer.cancel()
         val intent = Intent(
                 this, ServiceActivity::class.java
         )

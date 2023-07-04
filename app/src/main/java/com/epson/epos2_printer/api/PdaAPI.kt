@@ -34,11 +34,18 @@ interface PdaAPI {
 
 
     @GET("api/GetWorkingHoursBranches")
-    suspend fun isBranchOpen(@Query("branchID") branchID: Int): Response<List<IsBranchOpen>>
+    suspend fun isBranchOpen(@Query("branchID") branchID: Int,): Response<List<IsBranchOpen>>
     
+/*    @GET("api/GetServices")
+    suspend fun getServices(@Query("branchID") branchID: Int): Response<List<Services>>*/
+
     @GET("api/GetServices")
-    suspend fun getServices(@Query("branchID") branchID: Int): Response<List<Services>>
-    @POST("api/BookTicketfrmBranch")
+    suspend fun getServices(@Query("branchID") branchID: Int,
+                            @Query("DeptParentID")
+                            deptId: String,): Response<List<Services>>
+
+
+ /*   @POST("api/BookTicketfrmBranch")
     suspend fun getBookTicketNew(@Query("serviceID") serviceID: Int,
                               @Query("IsHandicap") IsHandicap: Boolean,
                               @Query("isVip") isVip: Boolean,
@@ -46,16 +53,19 @@ interface PdaAPI {
                               @Query("AppointmentCode") AppointmentCode: Int,
                               @Query("Customer_CivilID") Customer_CivilID: Int =0,
                               @Query("branchId") branchId: Int,): Response<List<BookTicket>>
-
+*/
     @POST("api/BookTicket")
-    suspend fun getBookTicket(@Query("mobileNumber") mobileNumber: String,
+    suspend fun getBookTicket(
                               @Query("serviceID") serviceID: Int,
                               @Query("IsHandicap") IsHandicap: Boolean,
                               @Query("isVip") isVip: Boolean,
                               @Query("languageID") languageID: Int,
                               @Query("AppointmentCode") AppointmentCode: Int,
-                              @Query("branchId") branchId: Int,
-                              @Query("QbranchID") QbranchID: Int): Response<List<BookTicket>>
+                              @Query("isaapt") isaapt: Boolean,
+                              @Query("refid")
+                              refid: String,
+                              @Query("DoctorServiceID")
+                              DoctorServiceID: String,): Response<List<BookTicket>>
     @GET("api/GetTicket")
     suspend fun getTicket(@Query("QueueID") QueueID: Int, @Query("language") language: Int): Response<List<GetTicket>>
 

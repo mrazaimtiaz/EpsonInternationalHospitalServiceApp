@@ -16,13 +16,10 @@ public class SerialPort {
 	/*
 	 * Do not remove or rename the field mFd: it is used by native method close();
 	 */
-	private FileDescriptor mFd ,mFd1;
+	private FileDescriptor mFd;
 	private FileInputStream mFileInputStream;
 	private FileOutputStream mFileOutputStream;
 
-
-	int x = 0;
-	public static FileDescriptor  f1;
 	public SerialPort(File device, int baudrate, int flags) throws SecurityException, IOException {
 
 		/* Check access permission */
@@ -44,27 +41,13 @@ public class SerialPort {
 			}
 		}
 
-
-		x++;
-		if(x == 1 ||  x == 2 || x == 3){
-			mFd1 = open(device.getAbsolutePath(), baudrate, flags);
-			mFd = mFd1;
-			f1 = mFd1;
-		}
-
-		/*if (mFd == null) {
+		mFd = open(device.getAbsolutePath(), baudrate, flags);
+		if (mFd == null) {
 			Log.e(TAG, "native open returns null");
 			throw new IOException();
 		}
 		mFileInputStream = new FileInputStream(mFd);
-		mFileOutputStream = new FileOutputStream(mFd);*/
-		
-		if (f1 == null) {
-			Log.e(TAG, "native open returns null");
-			throw new IOException();
-		}
-		mFileInputStream = new FileInputStream(f1);
-		mFileOutputStream = new FileOutputStream(f1);
+		mFileOutputStream = new FileOutputStream(mFd);
 	}
 
 	// Getters and setters
@@ -80,9 +63,11 @@ public class SerialPort {
 	private native static FileDescriptor open(String path, int baudrate, int flags);
 	public native void close();
 	static {
-		//System.out.println("dfdgdfadsfas");
-		System.loadLibrary("SerialPort");
+		try{
 
-		//System.loadLibrary("serial_port");
+			System.loadLibrary("serial_port");
+		}catch ( Exception e){
+
+		}
 	}
 }
