@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
-INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
-INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
-INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
+INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
+INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
+INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.2.2] /Users/gic/.gradle/caches/transforms-2/files-2.1/971fe83242ca425ef7e44ee2917c368a/navigation-ui-ktx-2.2.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.2.2] /Users/gic/.gradle/caches/transforms-2/files-2.1/c65b0077980178e541bbe77bd8a926c4/navigation-ui-2.2.2/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0-alpha01] /Users/gic/.gradle/caches/transforms-2/files-2.1/89067e50bb99b7662ddda65f424d8703/material-1.3.0-alpha01/AndroidManifest.xml:17:1-24:12
@@ -11,8 +11,8 @@ MERGED from [com.github.davidmigloz:number-keyboard:3.0.0] /Users/gic/.gradle/ca
 MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.6] /Users/gic/.gradle/caches/transforms-2/files-2.1/0262c624cd159bcaf40116528914f5c7/jetified-FancyToast-Android-0.1.6/AndroidManifest.xml:2:1-16:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/1816ed02278f0bb9d8b2bd6486a463fc/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.22] /Users/gic/.gradle/caches/transforms-2/files-2.1/7990b7bee029eb8d0d7f0481e74f2a78/jetified-android-gif-drawable-1.2.22/AndroidManifest.xml:2:1-9:12
-MERGED from [com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/b980255864856e1fd2bd7e27e1d8d4d1/jetified-smcloudservices-1.4.1/AndroidManifest.xml:2:1-13:12
-MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/8e5068abf36f9cd4570c95a04f58de66/jetified-library-1.2.0/AndroidManifest.xml:2:1-14:12
+MERGED from [com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/fe5e4cee835903c860edb26d87aa46ef/jetified-smcloudservices-1.4.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/10f3d38b48b87b935302d1473aeb6fe9/jetified-library-1.2.0/AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/2e9e503a2cfa6815a977866d1f48fd77/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/gic/.gradle/caches/transforms-2/files-2.1/118277453012834c1702da7b2ece3063/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.room:room-ktx:2.2.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/205ba7cf69278ee937d460f5760e2307/jetified-room-ktx-2.2.1/AndroidManifest.xml:17:1-24:12
@@ -28,10 +28,10 @@ MERGED from [androidx.navigation:navigation-common-ktx:2.2.2] /Users/gic/.gradle
 MERGED from [androidx.core:core-ktx:1.1.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/2036df7d7ad897fd4071ac86020fad47/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/0d111fda3bff1926993a002e69c5d1ef/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/34dce22f1bc4cf08451d61562df45f70/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
-MERGED from [com.github.smarteist:autoimageslider:1.4.0-appcompat] /Users/gic/.gradle/caches/transforms-2/files-2.1/5db5f41e04e10ada8dfe7827ec31bbb1/jetified-autoimageslider-1.4.0-appcompat/AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.smarteist:autoimageslider:1.4.0-appcompat] /Users/gic/.gradle/caches/transforms-2/files-2.1/74851f21ea023cd1ae9cc10f1395dff2/jetified-autoimageslider-1.4.0-appcompat/AndroidManifest.xml:2:1-17:12
 MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/gic/.gradle/caches/transforms-2/files-2.1/7ea644066b24bcc6a7c7e3d67a5671b1/jetified-sdp-android-1.0.6/AndroidManifest.xml:2:1-11:12
 MERGED from [com.intuit.ssp:ssp-android:1.0.6] /Users/gic/.gradle/caches/transforms-2/files-2.1/c54324e895a07309e818551e785fbfdd/jetified-ssp-android-1.0.6/AndroidManifest.xml:2:1-11:12
-MERGED from [it.xabaras.android:recyclerview-swipedecorator:1.2.2] /Users/gic/.gradle/caches/transforms-2/files-2.1/80fe3ece2b5f34576b9eff84a742a7ba/jetified-recyclerview-swipedecorator-1.2.2/AndroidManifest.xml:2:1-11:12
+MERGED from [it.xabaras.android:recyclerview-swipedecorator:1.2.2] /Users/gic/.gradle/caches/transforms-2/files-2.1/7cf4a64b53f082c8f31a0dc15efe97e9/jetified-recyclerview-swipedecorator-1.2.2/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha01] /Users/gic/.gradle/caches/transforms-2/files-2.1/f67c14e96c32d3ce5ba036eed2b946d2/jetified-hilt-lifecycle-viewmodel-1.0.0-alpha01/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.hilt:hilt-common:1.0.0-alpha01] /Users/gic/.gradle/caches/transforms-2/files-2.1/60144858bb08b16663fec1bf2a382015/jetified-hilt-common-1.0.0-alpha01/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:hilt-android:2.28-alpha] /Users/gic/.gradle/caches/transforms-2/files-2.1/ff7b7a6cd04942059ce205ee02e352fc/jetified-hilt-android-2.28-alpha/AndroidManifest.xml:16:1-19:12
@@ -81,85 +81,85 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/gic/.gradl
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/6f1aab7f23421169dfb4ccaac0035ad2/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/d6a64935382a70ba183cdd3dda28ca8a/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/cf42387c87d0975cf4efc8d962856fba/jetified-relinker-1.4.1/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.28] /Users/gic/.gradle/caches/transforms-2/files-2.1/23e042088678dacf6c20ea0ff4b6d07f/jetified-dagger-lint-aar-2.28/AndroidManifest.xml:16:1-18:12
-INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
-INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
-INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
+INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
+INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
+INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
 	package
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:4:5-38
-		INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:4:5-38
+		INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
-		INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
+		INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
-		INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12
+		INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:6:5-78
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:6:5-78
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:6:22-75
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:6:22-75
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:7:5-9:47
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:7:5-9:47
 	tools:ignore
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:9:9-44
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:9:9-44
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:8:9-57
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:8:9-57
 uses-permission#android.permission.GET_TASKS
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:10:5-68
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:10:5-68
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:10:22-65
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:10:22-65
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:11:5-81
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:11:22-78
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:11:22-78
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:12:5-81
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:12:22-78
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:12:22-78
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:13:5-81
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:13:22-78
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:13:22-78
 uses-permission#android.permission.BLUETOOTH
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:14:5-68
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:14:5-68
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:14:22-65
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:14:22-65
 uses-permission#android.permission.EXPAND_STATUS_BAR
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:15:5-76
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:15:5-76
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:15:22-73
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:15:22-73
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:16:5-74
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:16:5-74
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:16:22-71
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:16:22-71
 uses-permission#android.permission.INTERNET
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:17:5-67
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:17:5-67
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:17:22-64
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:17:22-64
 application
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:19:5-190:19
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:19:5-190:19
 MERGED from [com.google.android.material:material:1.3.0-alpha01] /Users/gic/.gradle/caches/transforms-2/files-2.1/89067e50bb99b7662ddda65f424d8703/material-1.3.0-alpha01/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0-alpha01] /Users/gic/.gradle/caches/transforms-2/files-2.1/89067e50bb99b7662ddda65f424d8703/material-1.3.0-alpha01/AndroidManifest.xml:22:5-20
 MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.6] /Users/gic/.gradle/caches/transforms-2/files-2.1/0262c624cd159bcaf40116528914f5c7/jetified-FancyToast-Android-0.1.6/AndroidManifest.xml:11:5-14:38
 MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.6] /Users/gic/.gradle/caches/transforms-2/files-2.1/0262c624cd159bcaf40116528914f5c7/jetified-FancyToast-Android-0.1.6/AndroidManifest.xml:11:5-14:38
-MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/8e5068abf36f9cd4570c95a04f58de66/jetified-library-1.2.0/AndroidManifest.xml:11:5-12:19
-MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/8e5068abf36f9cd4570c95a04f58de66/jetified-library-1.2.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/10f3d38b48b87b935302d1473aeb6fe9/jetified-library-1.2.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/10f3d38b48b87b935302d1473aeb6fe9/jetified-library-1.2.0/AndroidManifest.xml:11:5-12:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/gic/.gradle/caches/transforms-2/files-2.1/118277453012834c1702da7b2ece3063/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/gic/.gradle/caches/transforms-2/files-2.1/118277453012834c1702da7b2ece3063/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.play:core-ktx:1.8.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/41fcd82ffc5f97b71216610ef9c19357/jetified-core-ktx-1.8.1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.play:core-ktx:1.8.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/41fcd82ffc5f97b71216610ef9c19357/jetified-core-ktx-1.8.1/AndroidManifest.xml:7:5-20
 MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/34dce22f1bc4cf08451d61562df45f70/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/34dce22f1bc4cf08451d61562df45f70/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.smarteist:autoimageslider:1.4.0-appcompat] /Users/gic/.gradle/caches/transforms-2/files-2.1/5db5f41e04e10ada8dfe7827ec31bbb1/jetified-autoimageslider-1.4.0-appcompat/AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.smarteist:autoimageslider:1.4.0-appcompat] /Users/gic/.gradle/caches/transforms-2/files-2.1/5db5f41e04e10ada8dfe7827ec31bbb1/jetified-autoimageslider-1.4.0-appcompat/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.smarteist:autoimageslider:1.4.0-appcompat] /Users/gic/.gradle/caches/transforms-2/files-2.1/74851f21ea023cd1ae9cc10f1395dff2/jetified-autoimageslider-1.4.0-appcompat/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.smarteist:autoimageslider:1.4.0-appcompat] /Users/gic/.gradle/caches/transforms-2/files-2.1/74851f21ea023cd1ae9cc10f1395dff2/jetified-autoimageslider-1.4.0-appcompat/AndroidManifest.xml:11:5-15:19
 MERGED from [com.jakewharton:process-phoenix:2.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/b4693f1aaed3d690a0509fd90280a836/jetified-process-phoenix-2.0.0/AndroidManifest.xml:7:5-12:19
 MERGED from [com.jakewharton:process-phoenix:2.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/b4693f1aaed3d690a0509fd90280a836/jetified-process-phoenix-2.0.0/AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.core:core:1.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/1d137e31f100638d7fa0478fa9c8a03b/core-1.2.0/AndroidManifest.xml:24:5-89
@@ -170,246 +170,246 @@ MERGED from [androidx.room:room-runtime:2.2.1] /Users/gic/.gradle/caches/transfo
 MERGED from [androidx.room:room-runtime:2.2.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/bceac49b2588d9074850b088dc9cc74e/room-runtime-2.2.1/AndroidManifest.xml:24:5-28:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/94f8435e70589cdacc876648fc51e16a/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/94f8435e70589cdacc876648fc51e16a/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:10:3-17:17
-MERGED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:10:3-17:17
+MERGED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:10:3-17:17
+MERGED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:10:3-17:17
 	android:requestLegacyExternalStorage
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:26:9-52
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:26:9-52
 	tools:ignore
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:32:9-42
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:32:9-42
 	android:roundIcon
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:28:9-50
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:28:9-50
 	android:icon
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:23:9-45
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:23:9-45
 	android:networkSecurityConfig
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:25:9-69
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:25:9-69
 	android:sharedUserId
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:29:9-50
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:29:9-50
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/1d137e31f100638d7fa0478fa9c8a03b/core-1.2.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:30:9-35
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:30:9-35
 	android:label
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:24:9-41
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:24:9-41
 	android:resizeableActivity
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:27:9-43
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:27:9-43
 	tools:targetApi
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:33:9-28
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:33:9-28
 	android:allowBackup
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:21:9-35
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:21:9-35
 	android:theme
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:31:9-40
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:31:9-40
 	android:usesCleartextTraffic
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:22:9-44
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:22:9-44
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:20:9-40
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:20:9-40
 activity#com.epson.epos2_printer.ui.ScreenSaverActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:34:9-36:77
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:34:9-36:77
 	android:configChanges
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:36:13-74
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:36:13-74
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:35:13-51
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:35:13-51
 activity#com.epson.epos2_printer.ui.IntializeSettingActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:37:9-65
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:37:9-65
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:37:19-62
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:37:19-62
 activity#com.epson.epos2_printer.ui.MyScannerActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:38:9-58
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:38:9-58
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:38:19-55
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:38:19-55
 activity#com.epson.epos2_printer.ui.ManualActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:39:9-41:52
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:39:9-41:52
 	android:screenOrientation
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:41:13-49
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:41:13-49
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:40:13-46
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:40:13-46
 activity#com.epson.epos2_printer.ui.SplashActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:42:9-51:20
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:42:9-51:20
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:42:19-52
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:42:19-52
 intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:43:13-50:29
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:43:13-50:29
 action#android.intent.action.MAIN
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:44:17-69
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:44:17-69
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:44:25-66
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:44:25-66
 action#android.intent.action.VIEW
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:45:17-69
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:45:17-69
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:45:25-66
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:45:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:47:17-76
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:47:17-76
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:47:27-73
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:47:27-73
 category#android.intent.category.HOME
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:48:17-73
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:48:17-73
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:48:27-70
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:48:27-70
 category#android.intent.category.LAUNCHER
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:49:17-77
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:49:17-77
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:49:27-74
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:49:27-74
 activity#com.epson.epos2_printer.utils.LockedActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:52:9-58
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:52:9-58
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:52:19-55
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:52:19-55
 activity#com.epson.epos2_printer.ui.IntializeActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:53:9-71:20
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:53:9-71:20
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:53:19-55
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:53:19-55
 intent-filter#action:name:android.hardware.usb.action.USB_ACCESSORY_ATTACHED+action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:54:13-63:29
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:54:13-63:29
 action#android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:55:17-90
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:55:17-90
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:55:25-87
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:55:25-87
 action#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:56:17-93
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:56:17-93
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:56:25-90
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:56:25-90
 meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:65:13-67:57
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:65:13-67:57
 	android:resource
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:67:17-54
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:67:17-54
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:66:17-79
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:66:17-79
 meta-data#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:68:13-70:60
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:68:13-70:60
 	android:resource
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:70:17-57
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:70:17-57
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:69:17-82
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:69:17-82
 activity#com.epson.epos2_printer.ui.ServiceActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:72:9-93:20
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:72:9-93:20
 	android:configChanges
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:74:13-74
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:74:13-74
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:73:13-47
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:73:13-47
 activity#com.epson.epos2_printer.ui.ErrorActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:94:9-97:40
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:94:9-97:40
 	android:noHistory
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:97:13-37
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:97:13-37
 	android:configChanges
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:96:13-74
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:96:13-74
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:95:13-45
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:95:13-45
 activity#com.epson.epos2_printer.ui.SettingActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:98:9-100:77
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:98:9-100:77
 	android:configChanges
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:100:13-74
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:100:13-74
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:99:13-47
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:99:13-47
 activity#com.epson.epos2_printer.SettingActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:104:9-106:52
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:104:9-106:52
 	android:screenOrientation
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:106:13-49
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:106:13-49
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:105:13-44
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:105:13-44
 activity#com.epson.epos2_printer.PrinterSettingActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:107:9-109:52
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:107:9-109:52
 	android:screenOrientation
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:109:13-49
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:109:13-49
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:108:13-51
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:108:13-51
 activity#com.epson.epos2_printer.FirmwareUpdateActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:110:9-112:52
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:110:9-112:52
 	android:screenOrientation
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:112:13-49
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:112:13-49
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:111:13-51
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:111:13-51
 activity#com.epson.epos2_printer.MonitorActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:113:9-115:52
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:113:9-115:52
 	android:screenOrientation
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:115:13-49
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:115:13-49
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:114:13-44
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:114:13-44
 activity#com.epson.epos2_printer.SingleMonitorActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:116:9-118:52
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:116:9-118:52
 	android:screenOrientation
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:118:13-49
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:118:13-49
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:117:13-50
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:117:13-50
 activity#com.epson.epos2_printer.MultipleMonitorActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:119:9-121:52
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:119:9-121:52
 	android:screenOrientation
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:121:13-49
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:121:13-49
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:120:13-52
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:120:13-52
 activity#com.epson.epos2_printer.MainActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:122:9-148:20
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:122:9-148:20
 	android:screenOrientation
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:125:13-49
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:125:13-49
 	android:label
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:124:13-46
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:124:13-46
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:123:13-41
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:123:13-41
 activity#com.epson.epos2_printer.DiscoveryActivity
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:149:9-152:49
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:149:9-152:49
 	android:label
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:152:13-46
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:152:13-46
 	android:configChanges
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:151:13-74
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:151:13-74
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:150:13-46
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:150:13-46
 receiver#com.epson.epos2_printer.utils.MyDeviceAdminReceiver
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:158:9-173:20
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:158:9-173:20
 	android:label
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:161:13-45
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:161:13-45
 	android:permission
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:162:13-70
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:162:13-70
 	android:description
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:160:13-51
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:160:13-51
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:159:13-56
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:159:13-56
 intent-filter#action:name:android.app.action.DEVICE_ADMIN_DISABLED+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.DEVICE_ADMIN_ENABLED+action:name:android.intent.action.PROFILE_PROVISIONING_COMPLETE
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:163:13-168:29
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:163:13-168:29
 action#android.intent.action.DEVICE_ADMIN_ENABLED
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:164:17-85
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:164:17-85
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:164:25-82
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:164:25-82
 action#android.app.action.DEVICE_ADMIN_DISABLED
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:165:17-83
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:165:17-83
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:165:25-80
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:165:25-80
 action#android.intent.action.PROFILE_PROVISIONING_COMPLETE
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:166:17-94
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:166:17-94
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:166:25-91
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:166:25-91
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:167:17-79
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:167:17-79
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:167:25-76
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:167:25-76
 meta-data#android.app.device_admin
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:170:13-172:65
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:170:13-172:65
 	android:resource
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:172:17-62
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:172:17-62
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:171:17-56
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:171:17-56
 receiver#com.epson.epos2_printer.utils.yourActivityRunOnStartup
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:174:9-185:20
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:174:9-185:20
 	android:enabled
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:176:13-35
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:176:13-35
 	android:exported
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:177:13-36
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:177:13-36
 	android:permission
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:178:13-75
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:178:13-75
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:175:13-59
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:175:13-59
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:179:13-184:29
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:179:13-184:29
 action#android.intent.action.QUICKBOOT_POWERON
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:181:17-82
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:181:17-82
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:181:25-79
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:181:25-79
 service#com.epson.epos2_printer.utils.KioskService
-ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:187:9-189:40
+ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:187:9-189:40
 	android:exported
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:189:13-37
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:189:13-37
 	android:name
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:188:13-47
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:188:13-47
 uses-sdk
-INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
-INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-ui-ktx:2.2.2] /Users/gic/.gradle/caches/transforms-2/files-2.1/971fe83242ca425ef7e44ee2917c368a/navigation-ui-ktx-2.2.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui-ktx:2.2.2] /Users/gic/.gradle/caches/transforms-2/files-2.1/971fe83242ca425ef7e44ee2917c368a/navigation-ui-ktx-2.2.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.2.2] /Users/gic/.gradle/caches/transforms-2/files-2.1/c65b0077980178e541bbe77bd8a926c4/navigation-ui-2.2.2/AndroidManifest.xml:20:5-22:41
@@ -424,10 +424,10 @@ MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/gic/.gradle/caches/trans
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/1816ed02278f0bb9d8b2bd6486a463fc/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.22] /Users/gic/.gradle/caches/transforms-2/files-2.1/7990b7bee029eb8d0d7f0481e74f2a78/jetified-android-gif-drawable-1.2.22/AndroidManifest.xml:5:5-7:41
 MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.22] /Users/gic/.gradle/caches/transforms-2/files-2.1/7990b7bee029eb8d0d7f0481e74f2a78/jetified-android-gif-drawable-1.2.22/AndroidManifest.xml:5:5-7:41
-MERGED from [com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/b980255864856e1fd2bd7e27e1d8d4d1/jetified-smcloudservices-1.4.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/b980255864856e1fd2bd7e27e1d8d4d1/jetified-smcloudservices-1.4.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/8e5068abf36f9cd4570c95a04f58de66/jetified-library-1.2.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/8e5068abf36f9cd4570c95a04f58de66/jetified-library-1.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/fe5e4cee835903c860edb26d87aa46ef/jetified-smcloudservices-1.4.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/fe5e4cee835903c860edb26d87aa46ef/jetified-smcloudservices-1.4.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/10f3d38b48b87b935302d1473aeb6fe9/jetified-library-1.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/10f3d38b48b87b935302d1473aeb6fe9/jetified-library-1.2.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/2e9e503a2cfa6815a977866d1f48fd77/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/2e9e503a2cfa6815a977866d1f48fd77/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/gic/.gradle/caches/transforms-2/files-2.1/118277453012834c1702da7b2ece3063/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
@@ -458,14 +458,14 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/gic/.g
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/0d111fda3bff1926993a002e69c5d1ef/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/34dce22f1bc4cf08451d61562df45f70/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/34dce22f1bc4cf08451d61562df45f70/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.smarteist:autoimageslider:1.4.0-appcompat] /Users/gic/.gradle/caches/transforms-2/files-2.1/5db5f41e04e10ada8dfe7827ec31bbb1/jetified-autoimageslider-1.4.0-appcompat/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.smarteist:autoimageslider:1.4.0-appcompat] /Users/gic/.gradle/caches/transforms-2/files-2.1/5db5f41e04e10ada8dfe7827ec31bbb1/jetified-autoimageslider-1.4.0-appcompat/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.smarteist:autoimageslider:1.4.0-appcompat] /Users/gic/.gradle/caches/transforms-2/files-2.1/74851f21ea023cd1ae9cc10f1395dff2/jetified-autoimageslider-1.4.0-appcompat/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.smarteist:autoimageslider:1.4.0-appcompat] /Users/gic/.gradle/caches/transforms-2/files-2.1/74851f21ea023cd1ae9cc10f1395dff2/jetified-autoimageslider-1.4.0-appcompat/AndroidManifest.xml:7:5-9:41
 MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/gic/.gradle/caches/transforms-2/files-2.1/7ea644066b24bcc6a7c7e3d67a5671b1/jetified-sdp-android-1.0.6/AndroidManifest.xml:7:5-9:41
 MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/gic/.gradle/caches/transforms-2/files-2.1/7ea644066b24bcc6a7c7e3d67a5671b1/jetified-sdp-android-1.0.6/AndroidManifest.xml:7:5-9:41
 MERGED from [com.intuit.ssp:ssp-android:1.0.6] /Users/gic/.gradle/caches/transforms-2/files-2.1/c54324e895a07309e818551e785fbfdd/jetified-ssp-android-1.0.6/AndroidManifest.xml:7:5-9:41
 MERGED from [com.intuit.ssp:ssp-android:1.0.6] /Users/gic/.gradle/caches/transforms-2/files-2.1/c54324e895a07309e818551e785fbfdd/jetified-ssp-android-1.0.6/AndroidManifest.xml:7:5-9:41
-MERGED from [it.xabaras.android:recyclerview-swipedecorator:1.2.2] /Users/gic/.gradle/caches/transforms-2/files-2.1/80fe3ece2b5f34576b9eff84a742a7ba/jetified-recyclerview-swipedecorator-1.2.2/AndroidManifest.xml:7:5-9:41
-MERGED from [it.xabaras.android:recyclerview-swipedecorator:1.2.2] /Users/gic/.gradle/caches/transforms-2/files-2.1/80fe3ece2b5f34576b9eff84a742a7ba/jetified-recyclerview-swipedecorator-1.2.2/AndroidManifest.xml:7:5-9:41
+MERGED from [it.xabaras.android:recyclerview-swipedecorator:1.2.2] /Users/gic/.gradle/caches/transforms-2/files-2.1/7cf4a64b53f082c8f31a0dc15efe97e9/jetified-recyclerview-swipedecorator-1.2.2/AndroidManifest.xml:7:5-9:41
+MERGED from [it.xabaras.android:recyclerview-swipedecorator:1.2.2] /Users/gic/.gradle/caches/transforms-2/files-2.1/7cf4a64b53f082c8f31a0dc15efe97e9/jetified-recyclerview-swipedecorator-1.2.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha01] /Users/gic/.gradle/caches/transforms-2/files-2.1/f67c14e96c32d3ce5ba036eed2b946d2/jetified-hilt-lifecycle-viewmodel-1.0.0-alpha01/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha01] /Users/gic/.gradle/caches/transforms-2/files-2.1/f67c14e96c32d3ce5ba036eed2b946d2/jetified-hilt-lifecycle-viewmodel-1.0.0-alpha01/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.hilt:hilt-common:1.0.0-alpha01] /Users/gic/.gradle/caches/transforms-2/files-2.1/60144858bb08b16663fec1bf2a382015/jetified-hilt-common-1.0.0-alpha01/AndroidManifest.xml:20:5-22:41
@@ -564,22 +564,22 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/gic/.grad
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/d6a64935382a70ba183cdd3dda28ca8a/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/cf42387c87d0975cf4efc8d962856fba/jetified-relinker-1.4.1/AndroidManifest.xml:5:5-43
 MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/cf42387c87d0975cf4efc8d962856fba/jetified-relinker-1.4.1/AndroidManifest.xml:5:5-43
-MERGED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:4:3-70
-MERGED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:4:3-70
-INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
-INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:4:3-70
+INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/b980255864856e1fd2bd7e27e1d8d4d1/jetified-smcloudservices-1.4.1/AndroidManifest.xml:11:5-79
+ADDED from [com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/fe5e4cee835903c860edb26d87aa46ef/jetified-smcloudservices-1.4.1/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from [com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/b980255864856e1fd2bd7e27e1d8d4d1/jetified-smcloudservices-1.4.1/AndroidManifest.xml:11:22-76
+		ADDED from [com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/fe5e4cee835903c860edb26d87aa46ef/jetified-smcloudservices-1.4.1/AndroidManifest.xml:11:22-76
 activity#com.jakewharton.processphoenix.ProcessPhoenix
 ADDED from [com.jakewharton:process-phoenix:2.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/b4693f1aaed3d690a0509fd90280a836/jetified-process-phoenix-2.0.0/AndroidManifest.xml:8:9-11:75
 	android:process
@@ -595,44 +595,44 @@ ADDED from [androidx.room:room-runtime:2.2.1] /Users/gic/.gradle/caches/transfor
 	android:name
 		ADDED from [androidx.room:room-runtime:2.2.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/bceac49b2588d9074850b088dc9cc74e/room-runtime-2.2.1/AndroidManifest.xml:26:13-74
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:8:3-74
+ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:8:3-74
 	android:name
-		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:8:20-72
+		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:8:20-72
 activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
-ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:5-271
+ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:12:5-271
 	android:process
-		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:152-203
+		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:12:152-203
 	android:enabled
-		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:103-126
+		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:12:103-126
 	android:stateNotNeeded
-		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:240-269
+		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:12:240-269
 	android:launchMode
-		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:204-239
+		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:12:204-239
 	android:exported
-		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:127-151
+		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:12:127-151
 	android:name
-		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:15-102
+		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:12:15-102
 activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
-ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:5-226
+ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:13:5-226
 	android:enabled
-		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:96-119
+		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:13:96-119
 	android:stateNotNeeded
-		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:145-174
+		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:13:145-174
 	android:exported
-		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:120-144
+		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:13:120-144
 	android:theme
-		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:175-224
+		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:13:175-224
 	android:name
-		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:15-95
+		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:13:15-95
 service#com.google.android.play.core.assetpacks.AssetPackExtractionService
-ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:16:5-145
+ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:16:5-145
 	android:enabled
-		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:16:96-119
+		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:16:96-119
 	android:exported
-		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:16:120-143
+		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:16:120-143
 	android:name
-		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:16:14-95
+		ADDED from [com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:16:14-95
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12 reason: dagger.lint has a targetSdkVersion < 4
+IMPLIED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12 reason: dagger.lint has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12 reason: dagger.lint requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:2:1-192:12 reason: dagger.lint requested WRITE_EXTERNAL_STORAGE

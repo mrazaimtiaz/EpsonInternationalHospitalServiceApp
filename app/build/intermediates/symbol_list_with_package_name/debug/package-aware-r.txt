@@ -2304,6 +2304,8 @@ drawable androidicon
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
+drawable backgroundih
+drawable backgroundihwithlogo
 drawable backgroundtwo
 drawable bg_dialog
 drawable bg_dialog_title

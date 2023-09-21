@@ -1,2 +1,2 @@
-rootProject.name = "EpsonAlSeefServiceApp"
+rootProject.name = "EpsonInternationalHospitalServiceApp"
 include ':app'

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EpsonAlSeefServiceApp.iml" filepath="$PROJECT_DIR$/.idea/modules/EpsonAlSeefServiceApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonAlSeefServiceApp.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EpsonInternationalHospitalServiceApp.iml" filepath="$PROJECT_DIR$/.idea/modules/EpsonInternationalHospitalServiceApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonInternationalHospitalServiceApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonInternationalHospitalServiceApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonInternationalHospitalServiceApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonInternationalHospitalServiceApp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonInternationalHospitalServiceApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonInternationalHospitalServiceApp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EpsonInternationalHospitalServiceApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EpsonInternationalHospitalServiceApp.app.unitTest.iml" />
     </modules>
   </component>
 </project>

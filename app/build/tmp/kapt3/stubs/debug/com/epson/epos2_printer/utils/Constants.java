@@ -19,9 +19,9 @@ public final class Constants {
     public static final int INT_ENGLISH = 1;
     public static final int INT_ARABIC = 2;
     @org.jetbrains.annotations.NotNull()
-    public static final java.lang.String BASE_URL = "http://10.10.5.60/APIQ/";
+    public static final java.lang.String BASE_URL = "http://172.16.199.68/APIQ/";
     @org.jetbrains.annotations.NotNull()
-    public static final java.lang.String BASE_URL_LOCAL = "http://10.10.5.60/APIQ/";
+    public static final java.lang.String BASE_URL_LOCAL = "http://172.16.199.68/APIQ/";
     public static final int BRANCH_DEFAULT_VALUE = -999;
     public static final long DELAY_CHECK_BRANCH = 10000L;
     public static final long DELAY_SCREENSAVER = 180000L;

@@ -6,135 +6,135 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
+8-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml
+9-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:6:5-78
-11-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:6:22-75
+11-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:6:5-78
+11-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:6:22-75
 12    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-12-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:7:5-9:47
-12-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:8:9-57
+12-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:7:5-9:47
+12-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:8:9-57
 13    <uses-permission android:name="android.permission.GET_TASKS" />
-13-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:10:5-68
-13-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:10:22-65
+13-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:10:5-68
+13-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:10:22-65
 14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> -->
-14-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:11:5-81
-14-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:11:22-78
+14-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:11:5-81
+14-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:11:22-78
 15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:12:5-81
-15-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:12:22-78
+15-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:12:5-81
+15-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:12:22-78
 16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
-16-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:13:5-81
-16-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:13:22-78
+16-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:13:5-81
+16-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:13:22-78
 17    <uses-permission android:name="android.permission.BLUETOOTH" />
-17-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:14:5-68
-17-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:14:22-65
+17-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:14:5-68
+17-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:14:22-65
 18    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
-18-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:15:5-76
-18-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:15:22-73
+18-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:15:5-76
+18-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:15:22-73
 19    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-19-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:16:5-74
-19-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:16:22-71
+19-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:16:5-74
+19-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:16:22-71
 20    <uses-permission android:name="android.permission.INTERNET" />
-20-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:17:5-67
-20-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:17:22-64
+20-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:17:5-67
+20-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:17:22-64
 21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permission will be merged into the manifest of the hosting app. -->
-21-->[com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/b980255864856e1fd2bd7e27e1d8d4d1/jetified-smcloudservices-1.4.1/AndroidManifest.xml:11:5-79
-21-->[com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/b980255864856e1fd2bd7e27e1d8d4d1/jetified-smcloudservices-1.4.1/AndroidManifest.xml:11:22-76
+21-->[com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/fe5e4cee835903c860edb26d87aa46ef/jetified-smcloudservices-1.4.1/AndroidManifest.xml:11:5-79
+21-->[com.starmicronics:smcloudservices:1.4.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/fe5e4cee835903c860edb26d87aa46ef/jetified-smcloudservices-1.4.1/AndroidManifest.xml:11:22-76
 22    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
 23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-23-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:8:3-74
-23-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:8:20-72
+23-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:8:3-74
+23-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:8:20-72
 24    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 26
 27    <application
-27-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:19:5-190:19
+27-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:19:5-190:19
 28        android:name="com.epson.epos2_printer.QappApplication"
-28-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:20:9-40
+28-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:20:9-40
 29        android:allowBackup="true"
-29-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:21:9-35
+29-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:21:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 30-->[androidx.core:core:1.2.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/1d137e31f100638d7fa0478fa9c8a03b/core-1.2.0/AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
 32        android:icon="@drawable/androidicon"
-32-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:23:9-45
+32-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:23:9-45
 33        android:label="@string/app_name"
-33-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:24:9-41
+33-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:24:9-41
 34        android:networkSecurityConfig="@xml/network_security_config"
-34-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:25:9-69
+34-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:25:9-69
 35        android:requestLegacyExternalStorage="true"
-35-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:26:9-52
+35-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:26:9-52
 36        android:resizeableActivity="false"
-36-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:27:9-43
+36-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:27:9-43
 37        android:roundIcon="@drawable/androidicon"
-37-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:28:9-50
+37-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:28:9-50
 38        android:sharedUserId="android.uid.system"
-38-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:29:9-50
+38-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:29:9-50
 39        android:supportsRtl="true"
-39-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:30:9-35
+39-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:30:9-35
 40        android:testOnly="true"
 41        android:theme="@style/AppTheme"
-41-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:31:9-40
+41-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:31:9-40
 42        android:usesCleartextTraffic="true" >
-42-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:22:9-44
+42-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:22:9-44
 43        <activity
-43-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:34:9-36:77
+43-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:34:9-36:77
 44            android:name="com.epson.epos2_printer.ui.ScreenSaverActivity"
-44-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:35:13-51
+44-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:35:13-51
 45            android:configChanges="keyboardHidden|orientation|screenSize" />
-45-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:36:13-74
+45-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:36:13-74
 46        <activity android:name="com.epson.epos2_printer.ui.IntializeSettingActivity" />
-46-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:37:9-65
-46-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:37:19-62
+46-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:37:9-65
+46-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:37:19-62
 47        <activity android:name="com.epson.epos2_printer.ui.MyScannerActivity" />
-47-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:38:9-58
-47-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:38:19-55
+47-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:38:9-58
+47-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:38:19-55
 48        <activity
-48-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:39:9-41:52
+48-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:39:9-41:52
 49            android:name="com.epson.epos2_printer.ui.ManualActivity"
-49-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:40:13-46
+49-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:40:13-46
 50            android:screenOrientation="portrait" />
-50-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:41:13-49
+50-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:41:13-49
 51        <activity android:name="com.epson.epos2_printer.ui.SplashActivity" >
-51-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:42:9-51:20
-51-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:42:19-52
+51-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:42:9-51:20
+51-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:42:19-52
 52            <intent-filter>
-52-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:43:13-50:29
+52-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:43:13-50:29
 53                <action android:name="android.intent.action.MAIN" />
-53-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:44:17-69
-53-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:44:25-66
+53-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:44:17-69
+53-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:44:25-66
 54                <action android:name="android.intent.action.VIEW" />
-54-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:45:17-69
-54-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:45:25-66
+54-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:45:17-69
+54-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:45:25-66
 55
 56                <category android:name="android.intent.category.DEFAULT" />
-56-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:47:17-76
-56-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:47:27-73
+56-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:47:17-76
+56-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:47:27-73
 57                <category android:name="android.intent.category.HOME" />
-57-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:48:17-73
-57-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:48:27-70
+57-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:48:17-73
+57-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:48:27-70
 58                <category android:name="android.intent.category.LAUNCHER" />
-58-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:49:17-77
-58-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:49:27-74
+58-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:49:17-77
+58-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:49:27-74
 59            </intent-filter>
 60        </activity>
 61        <activity android:name="com.epson.epos2_printer.utils.LockedActivity" />
-61-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:52:9-58
-61-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:52:19-55
+61-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:52:9-58
+61-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:52:19-55
 62        <activity android:name="com.epson.epos2_printer.ui.IntializeActivity" >
-62-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:53:9-71:20
-62-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:53:19-55
+62-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:53:9-71:20
+62-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:53:19-55
 63            <intent-filter>
-63-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:54:13-63:29
+63-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:54:13-63:29
 64                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
-64-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:55:17-90
-64-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:55:25-87
+64-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:55:17-90
+64-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:55:25-87
 65                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
-65-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:56:17-93
-65-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:56:25-90
+65-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:56:17-93
+65-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:56:25-90
 66
 67                <!--
 68                <action android:name="android.intent.action.MAIN" />
@@ -144,24 +144,24 @@
 72            </intent-filter>
 73
 74            <meta-data
-74-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:65:13-67:57
+74-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:65:13-67:57
 75                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
-75-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:66:17-79
+75-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:66:17-79
 76                android:resource="@xml/device_filter" />
-76-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:67:17-54
+76-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:67:17-54
 77            <meta-data
-77-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:68:13-70:60
+77-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:68:13-70:60
 78                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
-78-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:69:17-82
+78-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:69:17-82
 79                android:resource="@xml/accessory_filter" />
-79-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:70:17-57
+79-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:70:17-57
 80        </activity>
 81        <activity
-81-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:72:9-93:20
+81-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:72:9-93:20
 82            android:name="com.epson.epos2_printer.ui.ServiceActivity"
-82-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:73:13-47
+82-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:73:13-47
 83            android:configChanges="keyboardHidden|orientation|screenSize" >
-83-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:74:13-74
+83-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:74:13-74
 84
 85            <!--
 86            <intent-filter>
@@ -182,68 +182,68 @@
 101            -->
 102        </activity>
 103        <activity
-103-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:94:9-97:40
+103-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:94:9-97:40
 104            android:name="com.epson.epos2_printer.ui.ErrorActivity"
-104-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:95:13-45
+104-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:95:13-45
 105            android:configChanges="keyboardHidden|orientation|screenSize"
-105-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:96:13-74
+105-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:96:13-74
 106            android:noHistory="true" />
-106-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:97:13-37
+106-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:97:13-37
 107        <activity
-107-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:98:9-100:77
+107-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:98:9-100:77
 108            android:name="com.epson.epos2_printer.ui.SettingActivity"
-108-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:99:13-47
+108-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:99:13-47
 109            android:configChanges="keyboardHidden|orientation|screenSize" />
-109-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:100:13-74
+109-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:100:13-74
 110        <!--
 111            <activity
 112            android:name=".ui.MobileEntryActivity"
 113            android:configChanges="keyboardHidden|orientation|screenSize" />
 114        -->
 115        <activity
-115-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:104:9-106:52
+115-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:104:9-106:52
 116            android:name="com.epson.epos2_printer.SettingActivity"
-116-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:105:13-44
+116-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:105:13-44
 117            android:screenOrientation="portrait" />
-117-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:106:13-49
+117-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:106:13-49
 118        <activity
-118-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:107:9-109:52
+118-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:107:9-109:52
 119            android:name="com.epson.epos2_printer.PrinterSettingActivity"
-119-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:108:13-51
+119-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:108:13-51
 120            android:screenOrientation="portrait" />
-120-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:109:13-49
+120-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:109:13-49
 121        <activity
-121-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:110:9-112:52
+121-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:110:9-112:52
 122            android:name="com.epson.epos2_printer.FirmwareUpdateActivity"
-122-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:111:13-51
+122-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:111:13-51
 123            android:screenOrientation="portrait" />
-123-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:112:13-49
+123-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:112:13-49
 124        <activity
-124-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:113:9-115:52
+124-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:113:9-115:52
 125            android:name="com.epson.epos2_printer.MonitorActivity"
-125-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:114:13-44
+125-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:114:13-44
 126            android:screenOrientation="portrait" />
-126-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:115:13-49
+126-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:115:13-49
 127        <activity
-127-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:116:9-118:52
+127-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:116:9-118:52
 128            android:name="com.epson.epos2_printer.SingleMonitorActivity"
-128-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:117:13-50
+128-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:117:13-50
 129            android:screenOrientation="portrait" />
-129-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:118:13-49
+129-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:118:13-49
 130        <activity
-130-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:119:9-121:52
+130-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:119:9-121:52
 131            android:name="com.epson.epos2_printer.MultipleMonitorActivity"
-131-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:120:13-52
+131-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:120:13-52
 132            android:screenOrientation="portrait" />
-132-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:121:13-49
+132-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:121:13-49
 133        <activity
-133-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:122:9-148:20
+133-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:122:9-148:20
 134            android:name="com.epson.epos2_printer.MainActivity"
-134-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:123:13-41
+134-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:123:13-41
 135            android:label="@string/app_title"
-135-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:124:13-46
+135-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:124:13-46
 136            android:screenOrientation="portrait" >
-136-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:125:13-49
+136-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:125:13-49
 137
 138            <!--
 139            <intent-filter>
@@ -268,82 +268,82 @@
 158            -->
 159        </activity>
 160        <activity
-160-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:149:9-152:49
+160-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:149:9-152:49
 161            android:name="com.epson.epos2_printer.DiscoveryActivity"
-161-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:150:13-46
+161-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:150:13-46
 162            android:configChanges="keyboardHidden|orientation|screenSize"
-162-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:151:13-74
+162-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:151:13-74
 163            android:label="@string/app_title" />
-163-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:152:13-46
+163-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:152:13-46
 164        <!--
 165                 <action android:name="android.intent.action.MAIN" />
 166
 167                <category android:name="android.intent.category.LAUNCHER" />
 168        -->
 169        <receiver
-169-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:158:9-173:20
+169-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:158:9-173:20
 170            android:name="com.epson.epos2_printer.utils.MyDeviceAdminReceiver"
-170-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:159:13-56
+170-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:159:13-56
 171            android:description="@string/app_name"
-171-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:160:13-51
+171-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:160:13-51
 172            android:label="@string/app_name"
-172-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:161:13-45
+172-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:161:13-45
 173            android:permission="android.permission.BIND_DEVICE_ADMIN" >
-173-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:162:13-70
+173-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:162:13-70
 174            <intent-filter>
-174-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:163:13-168:29
+174-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:163:13-168:29
 175                <action android:name="android.intent.action.DEVICE_ADMIN_ENABLED" />
-175-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:164:17-85
-175-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:164:25-82
+175-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:164:17-85
+175-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:164:25-82
 176                <action android:name="android.app.action.DEVICE_ADMIN_DISABLED" />
-176-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:165:17-83
-176-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:165:25-80
+176-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:165:17-83
+176-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:165:25-80
 177                <action android:name="android.intent.action.PROFILE_PROVISIONING_COMPLETE" />
-177-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:166:17-94
-177-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:166:25-91
+177-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:166:17-94
+177-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:166:25-91
 178                <action android:name="android.intent.action.BOOT_COMPLETED" />
-178-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:167:17-79
-178-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:167:25-76
+178-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:167:17-79
+178-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:167:25-76
 179            </intent-filter>
 180
 181            <meta-data
-181-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:170:13-172:65
+181-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:170:13-172:65
 182                android:name="android.app.device_admin"
-182-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:171:17-56
+182-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:171:17-56
 183                android:resource="@xml/device_admin_reciever" />
-183-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:172:17-62
+183-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:172:17-62
 184        </receiver>
 185        <receiver
-185-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:174:9-185:20
+185-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:174:9-185:20
 186            android:name="com.epson.epos2_printer.utils.yourActivityRunOnStartup"
-186-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:175:13-59
+186-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:175:13-59
 187            android:enabled="true"
-187-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:176:13-35
+187-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:176:13-35
 188            android:exported="true"
-188-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:177:13-36
+188-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:177:13-36
 189            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
-189-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:178:13-75
+189-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:178:13-75
 190            <intent-filter>
-190-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:179:13-184:29
+190-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:179:13-184:29
 191                <action android:name="android.intent.action.BOOT_COMPLETED" />
-191-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:167:17-79
-191-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:167:25-76
+191-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:167:17-79
+191-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:167:25-76
 192                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-192-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:181:17-82
-192-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:181:25-79
+192-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:181:17-82
+192-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:181:25-79
 193
 194                <category android:name="android.intent.category.DEFAULT" />
-194-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:47:17-76
-194-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:47:27-73
+194-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:47:17-76
+194-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:47:27-73
 195            </intent-filter>
 196        </receiver>
 197
 198        <service
-198-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:187:9-189:40
+198-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:187:9-189:40
 199            android:name="com.epson.epos2_printer.utils.KioskService"
-199-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:188:13-47
+199-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:188:13-47
 200            android:exported="false" />
-200-->/Users/gic/mrazaimtiaz/EpsonAlSeefServiceApp/app/src/main/AndroidManifest.xml:189:13-37
+200-->/Users/gic/mrazaimtiaz/EpsonInternationalHospitalServiceApp/app/src/main/AndroidManifest.xml:189:13-37
 201
 202        <activity
 202-->[com.jakewharton:process-phoenix:2.0.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/b4693f1aaed3d690a0509fd90280a836/jetified-process-phoenix-2.0.0/AndroidManifest.xml:8:9-11:75
@@ -361,39 +361,39 @@
 209            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
 209-->[androidx.room:room-runtime:2.2.1] /Users/gic/.gradle/caches/transforms-2/files-2.1/bceac49b2588d9074850b088dc9cc74e/room-runtime-2.2.1/AndroidManifest.xml:27:13-37
 210        <activity
-210-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:5-271
+210-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:12:5-271
 211            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
-211-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:15-102
+211-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:12:15-102
 212            android:enabled="false"
-212-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:103-126
+212-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:12:103-126
 213            android:exported="false"
-213-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:127-151
+213-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:12:127-151
 214            android:launchMode="singleInstance"
-214-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:204-239
+214-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:12:204-239
 215            android:process=":playcore_missing_splits_activity"
-215-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:152-203
+215-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:12:152-203
 216            android:stateNotNeeded="true" />
-216-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:12:240-269
+216-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:12:240-269
 217        <activity
-217-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:5-226
+217-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:13:5-226
 218            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-218-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:15-95
+218-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:13:15-95
 219            android:enabled="false"
-219-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:96-119
+219-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:13:96-119
 220            android:exported="false"
-220-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:120-144
+220-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:13:120-144
 221            android:stateNotNeeded="true"
-221-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:145-174
+221-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:13:145-174
 222            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
-222-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:13:175-224
+222-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:13:175-224
 223        <service
-223-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:16:5-145
+223-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:16:5-145
 224            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
-224-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:16:14-95
+224-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:16:14-95
 225            android:enabled="false"
-225-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:16:96-119
+225-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:16:96-119
 226            android:exported="true" />
-226-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/9119be390a34bcfbe5627f6b24301758/jetified-core-1.8.0/AndroidManifest.xml:16:120-143
+226-->[com.google.android.play:core:1.8.0] /Users/gic/.gradle/caches/transforms-2/files-2.1/cc8519845c39ce71bfa7a10468e24482/jetified-core-1.8.0/AndroidManifest.xml:16:120-143
 227    </application>
 228
 229</manifest>
